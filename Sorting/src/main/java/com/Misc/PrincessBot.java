@@ -1,8 +1,6 @@
-import java.io.*;
+package com.Misc;
+
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class PrincessBot {
     static void displayPathtoPrincess(int n, String [] grid){
