@@ -18,7 +18,7 @@ public class Merge_SortDemo {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] a = ArrayUtil.randomIntArray(20, 100);
+		int[] a = ArrayUtil.randomIntArray(10, 100);
 		System.out.println(Arrays.toString(a));
 		MergeSorter sorter = new MergeSorter(a);
 		sorter.sort();

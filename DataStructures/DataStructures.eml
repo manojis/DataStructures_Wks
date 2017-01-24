@@ -5,4 +5,7 @@
 		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
 		<excludeFolder url="file://$MODULE_DIR$/target"/>
 	</contentEntry>
+	<lib name="apache-commons.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/DataStructures/lib/apache-commons.jar!/"/>
+	</lib>
 </component>

@@ -7,13 +7,15 @@ package com.binary_Search;
  * @author 212561694
  *
  */
+
+import com.sorting.ArrayUtil;
+
 /**
 A class for executing binary searches through an array.
 */
 public class Binary_Search
 {
-private int[] a;
-
+    private int[] a;
 /**
    Constructs a BinarySearcher.
     @param anArray a sorted array of integers
@@ -32,8 +34,10 @@ private int[] a;
  */
  public int search(int v)
  {
+    //Arrays needs to be in sorted order
     int low = 0;
     int high = a.length - 1;
+    System.out.println("Value searched is:" +v);
     while (low <= high)
     {
        int mid = (low + high) / 2;
@@ -43,9 +47,23 @@ private int[] a;
           return mid;
        else if (diff < 0) // a[mid] < v
           low = mid + 1;
-         else
-            high = mid - 1;
-      }
+       else
+           high = mid - 1;
+    }
       return -1;
+ }
+ public static void main(String[] args)
+   {
+     int[] arr = ArrayUtil.randomIntArray(10,100);
+     Binary_Search searchVal = new Binary_Search(arr);
+     int searchForVal = arr[6];
+     //int searchForVal = 6;
+     int result = searchVal.search(searchForVal);
+     if(result<0){
+         System.out.println("Found");
+     }
+     else {
+         System.out.println("Not Found");
+     }
    }
 }

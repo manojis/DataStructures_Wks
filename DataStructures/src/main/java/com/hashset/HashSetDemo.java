@@ -4,15 +4,19 @@ package com.hashset;
 */
 /**
  * Created by 212561694 on 11/27/2016.
- *//*
+ */
+package com.hashset;
 
+//import com.hashset.HashSet;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-*/
 /**
  This program demonstrates the hash set class.
- *//*
+
+ somehow is not using the HashSet custom class
+ */
 
 public class HashSetDemo
 {
@@ -39,4 +43,4 @@ public class HashSetDemo
         while (iter.hasNext())
             System.out.println(iter.next());
     }
-}*/
+}
