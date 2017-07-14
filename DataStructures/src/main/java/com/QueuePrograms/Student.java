@@ -1,7 +1,7 @@
 package com.QueuePrograms;
 
 /**
- * Created by 212561694 on 4/13/2017.
+ * Created by Manoj.Mohanan Nair on 4/13/2017.
  */
 public class Student {
 

@@ -1,7 +1,7 @@
 package com.Misc;
 
 /**
- * Created by 212561694 on 6/1/2017.
+ * Created by Manoj.Mohanan Nair on 6/1/2017.
  */
 public class RearrangeString {
 

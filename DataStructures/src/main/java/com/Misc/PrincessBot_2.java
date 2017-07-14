@@ -2,7 +2,7 @@ package com.Misc;
 
 import java.util.Scanner;
 /**
- * Created by 212561694 on 11/22/2016.
+ * Created by Manoj.Mohanan Nair on 11/22/2016.
  */
 public class PrincessBot_2 {
 

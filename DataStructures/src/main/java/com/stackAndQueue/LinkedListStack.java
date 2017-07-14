@@ -3,7 +3,7 @@ package com.stackAndQueue;
 import java.util.NoSuchElementException;
 
 /**
- * Created by 212561694 on 1/1/2017.
+ * Created by Manoj.Mohanan Nair on 1/1/2017.
  *
  * Stack push() and pop() implemented as a linkedlist
  */

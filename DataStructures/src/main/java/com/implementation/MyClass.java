@@ -7,7 +7,7 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 /**
- * Created by 212561694 on 3/28/2017.
+ * Created by Manoj.Mohanan Nair on 3/28/2017.
  */
 public class MyClass implements alpha, beta {
     void display() {

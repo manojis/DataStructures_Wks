@@ -3,7 +3,7 @@ package com.Misc;
 import java.util.Scanner;
 
 /**
- * Created by 212561694 on 1/8/2017.
+ * Created by Manoj.Mohanan Nair on 1/8/2017.
  */
 public class PyramidMaxVal {
 

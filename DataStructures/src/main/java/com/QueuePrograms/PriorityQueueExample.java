@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.Random;
 
 /**
- * Created by 212561694 on 4/13/2017.
+ * Created by Manoj.Mohanan Nair on 4/13/2017.
  */
 public class PriorityQueueExample {
     public static void main(String[] args) {

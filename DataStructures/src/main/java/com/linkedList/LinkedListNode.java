@@ -1,7 +1,7 @@
 package com.linkedList;
 
 /**
- * Created by 212561694 on 6/4/2017.
+ * Created by Manoj.Mohanan Nair on 6/4/2017.
  */
 public class LinkedListNode {
     public LinkedListNode next;

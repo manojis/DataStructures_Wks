@@ -1,7 +1,7 @@
 package com.hashset;
 
 /**
- * Created by 212561694 on 4/16/2017.
+ * Created by Manoj.Mohanan Nair on 4/16/2017.
  */
 public class Coin {
     private String name;

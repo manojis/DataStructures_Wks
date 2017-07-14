@@ -1,7 +1,7 @@
 package com.Puzzles;
 
 /**
- * Created by 212561694 on 2/28/2017.
+ * Created by Manoj.Mohanan Nair on 2/28/2017.
  */
 public class TowerOfHanoi {
     private static MyDynamicStack[] tower;

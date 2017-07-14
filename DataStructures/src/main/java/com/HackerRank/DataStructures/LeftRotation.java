@@ -1,7 +1,7 @@
 package com.HackerRank.DataStructures;
 
 /**
- * Created by 212561694 on 1/24/2017.
+ * Created by Manoj.Mohanan Nair on 1/24/2017.
  */
 import java.util.*;
 

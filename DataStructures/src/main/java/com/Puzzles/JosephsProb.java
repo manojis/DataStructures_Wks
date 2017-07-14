@@ -3,7 +3,7 @@ package com.Puzzles;
 import java.util.ArrayList;
 
 /**
- * Created by 212561694 on 4/12/2017.
+ * Created by Manoj.Mohanan Nair on 4/12/2017.
  */
 public class JosephsProb {
 

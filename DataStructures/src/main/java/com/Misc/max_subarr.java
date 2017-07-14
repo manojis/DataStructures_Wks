@@ -4,7 +4,7 @@ import com.sorting.ArrayUtil;
 
 import java.util.Scanner;
 /**
- * Created by 212561694 on 10/20/2016.
+ * Created by Manoj.Mohanan Nair on 10/20/2016.
  */
 public class max_subarr {
 

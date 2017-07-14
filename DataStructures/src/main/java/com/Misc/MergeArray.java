@@ -3,7 +3,7 @@ package com.Misc;
 import java.util.Scanner;
 
 /**
- * Created by 212561694 on 12/30/2016.
+ * Created by Manoj.Mohanan Nair on 12/30/2016.
  */
 public class MergeArray {
    /* private int[] a;

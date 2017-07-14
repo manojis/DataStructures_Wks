@@ -2,7 +2,7 @@ package com.substring_array;
 
 import java.util.Scanner;
 /**
- * Created by 212561694 on 10/19/2016.
+ * Created by Manoj.Mohanan Nair on 10/19/2016.
  */
 public class substring_count {
 

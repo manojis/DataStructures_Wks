@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Queue;
 
 /**
- * Created by 212561694 on 6/8/2017.
+ * Created by Manoj.Mohanan Nair on 6/8/2017.
  */
 public class LinkedListQueue<String> {
     private Node head, tail; //begin and end nodes

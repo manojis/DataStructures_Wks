@@ -1,7 +1,7 @@
 package com.QueuePrograms;
 
 /**
- * Created by 212561694 on 6/11/2017.
+ * Created by Manoj.Mohanan Nair on 6/11/2017.
  */
 
 import java.lang.*;
