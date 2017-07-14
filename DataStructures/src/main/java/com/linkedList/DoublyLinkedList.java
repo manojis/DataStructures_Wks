@@ -4,6 +4,8 @@ package com.linkedList;
  * Created by 212561694 on 1/1/2017.
  */
 import com.sorting.ArrayUtil;
+
+import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.NoSuchElementException;
 
@@ -35,6 +37,7 @@ public class DoublyLinkedList<Item> implements Iterable<Item> {
         tail = new Node();
         head.next = tail;
         tail.previous = head;
+        
     }
     // add the item to the list
     public void add(Item item)
@@ -138,7 +141,7 @@ public class DoublyLinkedList<Item> implements Iterable<Item> {
         return s.toString();
     }
 
-    // a test client
+    // a ParenthesisCheck client
     public static void main(String[] args)
     {
         int n  = Integer.parseInt(args[0]);

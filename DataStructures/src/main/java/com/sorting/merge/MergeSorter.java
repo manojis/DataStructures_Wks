@@ -4,7 +4,7 @@
 package com.sorting.merge;
 
 /**
- * @author 212561694
+ * @author Manoj.Mohanan Nair
  *This class sorts an array, using the com.selection.merge sort algorithm.
  */
 public class MergeSorter {

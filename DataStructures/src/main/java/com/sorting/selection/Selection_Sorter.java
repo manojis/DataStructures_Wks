@@ -6,7 +6,7 @@ package com.sorting.selection;
 import java.util.Arrays;
 
 /**
- * @author 212561694
+ * @author Manoj.Mohanan Nair
  *
  */
 public class Selection_Sorter {

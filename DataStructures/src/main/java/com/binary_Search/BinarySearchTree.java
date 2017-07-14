@@ -157,9 +157,12 @@ package com.binary_Search;
         */
         public void printNodes()
         {
+        	//traverse the left nodes
               if (left != null)
                  left.printNodes();
+              //print the root node data i.e root.key value
               System.out.print(data + " ");
+              //traverse the right nodes
               if (right != null)
                  right.printNodes();
             }

@@ -8,7 +8,7 @@ import java.util.Random;
 import java.util.Arrays;
 
 /**
- * @author 212561694
+ * @author Manoj.Mohanan Nair
  *
  */
 public class ArrayUtil {

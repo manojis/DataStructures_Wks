@@ -20,6 +20,7 @@ public class LinkedList {
      */
     public LinkedList()
     {
+
         first = null;
     }
 
@@ -51,14 +52,15 @@ public class LinkedList {
      Adds an element to the front of the linked list.
      @param element the element to add
      */
-    public void addFirst(Object element)
+    public Node addFirst(Object element)
     {
         Node newNode = new Node();
         newNode.data = element;
         newNode.next = first;
         first = newNode;
+        return first;
     }
-
+    
     /**
      Returns an iterator for iterating through this list.
      @return an iterator for iterating through this list
@@ -190,7 +192,7 @@ public class LinkedList {
 		LinkedList manoj = new LinkedList();
 		System.out.println(manoj);
 		manoj.getFirst();
-		manoj.addFirst(manojElement);
+		manoj.addFirst(manojElement);		
 	}
 }
 

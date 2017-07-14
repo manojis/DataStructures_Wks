@@ -7,7 +7,7 @@ import java.util.Arrays;
 import com.sorting.ArrayUtil;
 
 /**
- * @author 212561694 *
+ * @author Manoj.Mohanan Nair *
  *    This program demonstrates the com.selection.merge sort algorithm by
  *    selection an array that is filled with random numbers. *
  */

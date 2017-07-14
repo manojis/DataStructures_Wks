@@ -4,7 +4,7 @@
 package com.sorting.merge;
 
 /**
- * @author 212561694
+ * @author Manoj.Mohanan Nair
  *
  */
 public class Simple_Merge {

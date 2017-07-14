@@ -1,4 +1,4 @@
-/*
+
 
 package com.hashset;
 
@@ -6,39 +6,52 @@ import java.util.AbstractSet;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-*/
 /**
  A hash set stores an unordered collection of objects, using
  a hash table.
- *//*
+ */
 
 public class HashSet extends AbstractSet
 {
      private Node[] buckets;
      private int size;
 
-     */
-/**
+     class Node
+     {
+          public Object data;
+          public Node next;
+     }
+
+     /**
+      Gets the number of elements in this set.
+      @return the number of elements
+      */
+     public int size()
+     {
+
+          return size;
+     }
+
+      /**
       Constructs a hash table.
       @param bucketsLength the length of the buckets array
-      *//*
-
+      */
      public HashSet(int bucketsLength)
      {
           buckets = new Node[bucketsLength];
           size = 0;
      }
-     */
-/**
+
+      /**
       Tests for set membership.
       @param x  an object
       @return true if x is an element of this set
-      *//*
-
+      */
      public boolean contains(Object x)
      {
           int h = x.hashCode();
-          if (h < 0) h = -h;
+          if (h < 0)
+               h = -h;
           h = h % buckets.length;
 
           Node current = buckets[h];
@@ -50,19 +63,19 @@ public class HashSet extends AbstractSet
           return false;
      }
 
-     */
-/**
+      /**
       Adds an element to this set.
       @param x   an object
       @return true if x is a new object, false if x was already in the set
-      *//*
-
+      */
      public boolean add(Object x)
      {
           int h = x.hashCode();
           if (h < 0) h = -h;
           h = h % buckets.length;
 
+          //current is the first node of the current bucket found through the hashcode
+          //buckets[h] points to the first node reference
           Node current = buckets[h];
           while (current != null)
           {
@@ -70,6 +83,8 @@ public class HashSet extends AbstractSet
                     return false; //      Already in the set
                current = current.next;
           }
+          //once the current iterates till the last node i.e no element found in that bucket
+          //create a new mode to store that element x in the initial/first position
           Node newNode = new Node();
           newNode.data = x;
           newNode.next = buckets[h];
@@ -78,14 +93,12 @@ public class HashSet extends AbstractSet
           return true;
      }
 
-     */
-/**
+      /**
       Removes an object from this set.
       @param x   an object
       @return true if x was removed from this set, false
       if x  was not an element of this set
-      *//*
-
+      */
      public boolean remove(Object x)
      {
           int h = x.hashCode();
@@ -98,8 +111,10 @@ public class HashSet extends AbstractSet
           {
                if (current.data.equals(x))
                {
-                    if (previous == null) buckets[h] = current.next;
-                    else previous.next = current.next;
+                    if (previous == null)
+                         buckets[h] = current.next;
+                    else
+                         previous.next = current.next;
                     size--;
                     return true;
                }
@@ -109,34 +124,14 @@ public class HashSet extends AbstractSet
           return false;
      }
 
-     */
-/**
+      /**
       Returns an iterator that traverses the elements of this set.
       @return   a hash set iterator
-      *//*
-
+      */
      public Iterator iterator()
      {
+
           return new HashSetIterator();
-     }
-
-     */
-/**
-      Gets the number of elements in this set.
-      @return the number of elements
-      *//*
-
-     public int size()
-     {
-          return size;
-     }
-
-     class Node
-     {*/
-/**//*
-
-          public Object data;
-          public Node next;
      }
 
      class HashSetIterator implements Iterator
@@ -146,18 +141,20 @@ public class HashSet extends AbstractSet
           private int previousBucket;
           private Node previous;
 
-          */
-/**
+
+            /**
            Constructs a hash set iterator that points to the
            first element of the hash set.
-           *//*
+           */
 
           public HashSetIterator()
           {
                current = null;
-               bucket = −1;
+               bucket = 1;
+               bucket =-bucket;
                previous = null;
-               previousBucket = −1;
+               previousBucket = 1;
+               previousBucket = -previousBucket;
           }
 
           public boolean hasNext()
@@ -206,4 +203,4 @@ public class HashSet extends AbstractSet
           }
      }
 }
-*/
+

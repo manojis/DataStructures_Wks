@@ -4,13 +4,10 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Set;
 
-/**
- * Created by 212561694 on 1/24/2017.
- */
 public class HashMapTest {
 
     /**
-     * @author Arpit Mandliya
+     * @author Manoj.Mohanan Nair
      */
     public static void main(String[] args) {
         // create hash map
