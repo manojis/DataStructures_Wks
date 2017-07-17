@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 /**
- * Created by Mohitha on 7/16/2017.
+ * Created by Manoj.MohananNair on 7/16/2017.
  */
 public class HotelReveiws {
 
