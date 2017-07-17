@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 
 /**
- * Created by Mohitha on 7/14/2017.
+ * Created by Manoj.Mohanan Nair on 7/14/2017.
  */
 public class DeltaEncoding {
     public static void main(String[] args) throws java.lang.Exception {

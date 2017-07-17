@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 /**
- * Created by Mohitha on 7/12/2017.
+ * Created by Manoj.Mohanan Nair on 7/12/2017.
  */
 public class ZeroSumChallenge {
 

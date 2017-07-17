@@ -4,7 +4,7 @@
 package com.tree;
 
 /**
- * @author Mohitha
+ * @author Manoj.Mohanan Nair
  */
 //http://www.baeldung.com/java-dijkstra
 //This is a java program to find the shortest path between source vertex and destination vertex

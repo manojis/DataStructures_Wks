@@ -6,7 +6,7 @@ package com.stackAndQueue;
 import java.util.Scanner;
 
 /**
- * @author Mohitha
+ * @author Manoj.Mohanan Nair
  */
 public class StackImplementInArray {
     /*  Class StackImplement  */

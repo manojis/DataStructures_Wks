@@ -1,7 +1,7 @@
 package com.Misc;
 
 /**
- * Created by Mohitha on 7/14/2017.
+ * Created by Manoj.Mohanan Nair on 7/14/2017.
  */
 public class Power_Posi_Neg {
 
