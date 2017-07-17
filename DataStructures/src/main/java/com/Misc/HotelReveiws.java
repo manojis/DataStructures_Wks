@@ -48,7 +48,6 @@ public class HotelReveiws {
                 }
             }
         }
-
         // Sort
         List<Map.Entry<Integer, Integer>> sorted = new ArrayList(hotel2count.entrySet());
         Collections.sort(sorted, new Comparator<Map.Entry<Integer, Integer>>() {
