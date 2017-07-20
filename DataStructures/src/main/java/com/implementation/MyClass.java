@@ -23,8 +23,9 @@ public class MyClass implements alpha, beta {
         //to get a modifiable list, we need to Arraylist
         ArrayList<String> arr = new ArrayList<String>(list);
         Collections.sort(list, new Comparator<String>() {
-            //@Override
+            @Override
             public int compare(String a, String b) {
+                System.out.println("value is" + (b.compareTo(a)));
                 return b.compareTo(a);
             }
         });

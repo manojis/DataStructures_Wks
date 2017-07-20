@@ -13,7 +13,7 @@ public class HotelReveiws {
 
         System.out.println(System.getProperty("user.home"));
 
-        System.setIn(new FileInputStream(System.getProperty("user.home") + "/" + "in.txt"));
+        System.setIn(new FileInputStream(System.getProperty("user.home") + "/" + "HotelReviews.txt"));
         Scanner in = new Scanner(System.in);
 
         // Read dictionary
@@ -49,13 +49,18 @@ public class HotelReveiws {
             }
         }
         // Sort
+        //Set<Map.Entry<Integer,Integer>> entry = hotel2count.entrySet();
+
+        //assigning the set to arraylist
         List<Map.Entry<Integer, Integer>> sorted = new ArrayList(hotel2count.entrySet());
         Collections.sort(sorted, new Comparator<Map.Entry<Integer, Integer>>() {
             @Override
             public int compare(Map.Entry<Integer, Integer> o1, Map.Entry<Integer, Integer> o2) {
                 if (o1.getValue() == o2.getValue()) {
+                    System.out.println(">>--->" + (o1.getKey() - o2.getKey()));
                     return o1.getKey() - o2.getKey();
                 } else {
+                    System.out.println("--->" + (o2.getValue() - o1.getValue()));
                     return o2.getValue() - o1.getValue();
                 }
             }
