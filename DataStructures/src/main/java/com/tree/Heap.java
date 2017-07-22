@@ -7,9 +7,6 @@ package com.tree;
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
-/**
- * @author https://www.dropbox.com/s/mpbp6kv0qgg43xp/Heap.java#
- */
 public class Heap<T extends Comparable<T>> {
 
     private ArrayList<T> items;

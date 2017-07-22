@@ -3,7 +3,7 @@ package com.tree;
 import java.util.Scanner;
 
 /**
- * @author https://www.dropbox.com/s/0n0nop2hn28my0j/HeapApp.java
+ * @author Manoj.MohananNair
  */
 public class HeapApp {
 

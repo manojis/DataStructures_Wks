@@ -22,7 +22,9 @@ public class MyClass implements alpha, beta {
         List<String> list = Arrays.asList("manoj", "lam", "sreejith", "xyz");
         //to get a modifiable list, we need to Arraylist
         ArrayList<String> arr = new ArrayList<String>(list);
-        Collections.sort(list, new Comparator<String>() {
+        HashSet<String> str = new HashSet<String>();
+        str.
+                Collections.sort(list, new Comparator<String>() {
             @Override
             public int compare(String a, String b) {
                 System.out.println("value is" + (b.compareTo(a)));
