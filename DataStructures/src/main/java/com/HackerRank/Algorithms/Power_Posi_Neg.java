@@ -1,4 +1,4 @@
-package com.Misc;
+package com.HackerRank.Algorithms;
 
 /**
  * Created by Manoj.Mohanan Nair on 7/14/2017.

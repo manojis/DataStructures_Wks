@@ -1,8 +1,6 @@
-package com.Misc;
+package com.HackerRank.Algorithms;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * Created by Manoj.Mohanan Nair on 7/12/2017.

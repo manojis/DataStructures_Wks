@@ -1,6 +1,5 @@
-package com.Misc;
+package com.HackerRank.Algorithms;
 
-import java.io.*;
 import java.util.*;
 /**
  * Created by Manoj.Mohanan Nair on 12/19/2016.

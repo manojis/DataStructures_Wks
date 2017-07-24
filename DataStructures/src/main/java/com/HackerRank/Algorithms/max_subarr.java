@@ -1,4 +1,4 @@
-package com.Misc;
+package com.HackerRank.Algorithms;
 
 import com.sorting.ArrayUtil;
 

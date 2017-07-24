@@ -1,7 +1,7 @@
 package com.HackerRank.Algorithms;
 
 /**
- * Created by Mohitha on 7/19/2017.
+ * Created by Manoj.Mohanan Nair on 7/19/2017.
  */
 
 import java.util.*;
