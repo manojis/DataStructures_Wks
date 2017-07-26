@@ -7,8 +7,11 @@ import java.util.Map;
 
 /**
  * Created by Manoj.Mohanan Nair on 7/25/2017.
+ * Input list a1: { 2, 21, 6, 6, 9, 9, 13 }
+ * Input list a2: { 3, 6, 9, 9, 9, 9, 13, 22, 21 }
+ * Output: { 21, 6, 9, 9, 13 }
  */
-public class Apple {
+public class Intersect_Arrays_Apple {
 
     public static void main(String[] args) throws java.lang.Exception {
 
@@ -16,11 +19,43 @@ public class Apple {
             int[] a1 = {2, 21, 6, 6, 9, 9, 13};
             int[] a2 = {3, 6, 9, 9, 9, 9, 13, 22, 21};
 
+            //Better solution in O(n)
+            int[] bestResult = intersection(a1,a2);
+            System.out.println("Output:"+ Arrays.toString(bestResult));
+
+            //TimeComplexity of O(n^2)
             ArrayList<Integer> result = intersectionValues(a1, a2);
             System.out.println(Arrays.toString(result.toArray()));
+
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
+    }
+
+    //Better solution in O(n)
+    private static int[] intersection(int[] a1, int[] a2){
+
+        HashMap<Integer,Integer> hMap = new HashMap<Integer,Integer>();
+        ArrayList<Integer> result = new ArrayList<Integer>();
+
+        for(int i:a1){
+            if(hMap.containsKey(i)){
+                hMap.put(i,hMap.get(i)+1);
+            }else{
+                hMap.put(i,1);
+            }
+        }
+        for(int j:a2){
+            if(hMap.containsKey(j) && hMap.get(j)>0){
+                result.add(j);
+                hMap.put(j,hMap.get(j)-1);
+            }
+        }
+        int[] output = new int[result.size()];
+        for(int i=0;i<output.length;i++){
+            output[i] = result.get(i);
+        }
+        return output;
     }
 
     private static ArrayList<Integer> intersectionValues(int[] a1, int[] a2) {
