@@ -105,6 +105,8 @@ public class LinkedList {
         {
             if (!hasNext())
                 throw new NoSuchElementException();
+            //when pointing the current one to the position.next(line 115 does this),
+            // ensure the current is assigned to previous
             previous = position; // Remember for remove
 
             if (position == null)
