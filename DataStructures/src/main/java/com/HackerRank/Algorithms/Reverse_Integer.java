@@ -9,6 +9,10 @@ package com.HackerRank.Algorithms;
 
 //input = 1000000003
 //output = reverse of 1000000003 overflows and hence return as 0
+/**
+ * @author Manoj.Mohanan Nair
+ * @Date 7/10/2017
+ */
 
 public class Reverse_Integer {
     public static void main(String[] args){

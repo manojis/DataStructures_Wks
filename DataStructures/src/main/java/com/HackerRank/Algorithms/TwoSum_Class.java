@@ -2,6 +2,10 @@ package com.HackerRank.Algorithms;
 
 import java.util.*;
 import java.io.*;
+/**
+ * @author Manoj.Mohanan Nair
+ * @Date 8/10/2017
+ */
 
 public class TwoSum_Class {
 

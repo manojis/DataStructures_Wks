@@ -1,5 +1,10 @@
 package com.HackerRank.Algorithms;
 
+/**
+ * @author Manoj.Mohanan Nair
+ * @Date 7/10/2017
+ */
+
 import java.util.Arrays;
 import java.util.Scanner;
 

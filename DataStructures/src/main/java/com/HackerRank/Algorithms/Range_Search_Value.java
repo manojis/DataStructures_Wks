@@ -1,6 +1,11 @@
 package com.HackerRank.Algorithms;
 
 import java.util.Arrays;
+
+/**
+ * @author Manoj.Mohanan Nair
+ * @Date 7/10/2017
+ */
 /*
  input ={5,7,7,8,8,10}
  output = {3,8}
