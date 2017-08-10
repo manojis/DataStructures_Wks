@@ -22,6 +22,9 @@ public class HashMapTest {
             Integer key = entry.getKey();
             String value = entry.getValue();
         }
+        for(int x: newmap.keySet()){
+
+        }
         Iterator<Integer> iter = newmap.keySet().iterator();
 
         while(iter.hasNext()){
