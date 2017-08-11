@@ -4,6 +4,8 @@ import java.util.*;
 /**
  * Created by Manoj.Mohanan Nair on 12/19/2016.
  */
+//input 4[bx2[cay]]
+//output
 public class HolidayWorld {
     public static void main (String[] args) throws java.lang.Exception
     {
