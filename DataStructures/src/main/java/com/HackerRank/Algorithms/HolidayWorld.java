@@ -5,7 +5,9 @@ import java.util.*;
  * Created by Manoj.Mohanan Nair on 12/19/2016.
  */
 //input 4[bx2[cay]]
-//output
+//output bxcaycaybxcaycaybxcaycaybxcaycay
+
+    //go to Decode String for the right answer
 public class HolidayWorld {
     public static void main (String[] args) throws java.lang.Exception
     {
