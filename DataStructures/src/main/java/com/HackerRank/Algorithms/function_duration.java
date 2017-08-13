@@ -19,31 +19,61 @@ public class function_duration {
     {
 
         List<String> inputDict = new ArrayList<String>();
-        /*inputDict.add("0:start:0");
+        inputDict.add("0:start:0");
         inputDict.add("1:start:2");
         //inputDict.add("2:start:3");
         //inputDict.add("2:end:5");
         //inputDict.add("3:start:7");
         //inputDict.add("3:end:9");
         inputDict.add("1:end:5");
-        inputDict.add("0:end:6");*/
+        inputDict.add("0:end:6");
 
-        inputDict.add("0:start:0");
+        /*inputDict.add("0:start:0");
         inputDict.add("0:end:0");
         inputDict.add("1:start:1");
         inputDict.add("1:end:1");
         inputDict.add("2:start:2");
         inputDict.add("2:end:2");
         inputDict.add("2:start:3");
-        inputDict.add("2:end:3");
+        inputDict.add("2:end:3");*/
 
 
-        int n =4;
+        int n = 2;
         int[] output = exclusiveTime(n,inputDict);
         System.out.println(Arrays.toString(output));
      }
 
-    public static int[] exclusiveTime(int n, List<String> logs) {
+    //leetcode solution
+     public static int[] exclusiveTime(int n,List<String> logs){
+         int[] res = new int[n];
+         //push the functionId into stack
+         Stack<Integer> stack = new Stack<>();
+         int prevTime = 0;
+         for (String log : logs) {
+             String[] parts = log.split(":");
+
+             if (!stack.isEmpty()){
+                 int endTime = Integer.parseInt(parts[2]);
+                 res[stack.peek()] =  res[stack.peek()]+(endTime - prevTime);
+             }
+             prevTime = Integer.parseInt(parts[2]);
+
+             int functionId=-1;
+             if (parts[1].equals("start")){
+                 functionId = Integer.parseInt(parts[0]);
+                 stack.push(functionId);
+             }
+             else {
+                 res[stack.pop()]++;
+                 prevTime++;
+             }
+         }
+         return res;
+     }
+
+
+    //my solution
+    public static int[] myExclusiveTime(int n, List<String> logs) {
 
         Stack<Integer> id = new Stack<Integer>();
         Stack<Integer> time = new Stack<Integer>();
