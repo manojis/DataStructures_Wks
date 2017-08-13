@@ -5,4 +5,6 @@ package com.HackerRank.Algorithms;
  * @Date 8/11/17
  */
 public class max_subarray_average {
+
+
 }
