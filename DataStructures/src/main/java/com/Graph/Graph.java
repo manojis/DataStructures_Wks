@@ -35,12 +35,14 @@ public class Graph {
 
     public Graph(String file) throws FileNotFoundException {
 
-        Scanner sc = new Scanner(new File("friendship.txt"));
+        String path = System.getProperty("user.home") + "/Applications/GitHub/DataStructures_Wks/DataStructures/" + "friendship.txt";
+        System.out.println(path);
+        Scanner sc = new Scanner(new File(path));
         String graphType = sc.next();
-        boolean undirected = true;
-        if (graphType.equals("directed")) {
+        boolean undirected = false;
+        /*if (graphType.equals("directed")) {
             undirected = false;
-        }
+        }*/
 
         adjLists = new Vertex[sc.nextInt()];
 
@@ -54,19 +56,20 @@ public class Graph {
 
             // read vertex names and translate to vertex numbers
             String nextval = sc.next();
-            System.out.println(nextval);
+            //System.out.println(nextval);
             int v1 = indexForName(nextval);
             nextval = sc.next();
-            System.out.println(nextval);
+            //System.out.println(nextval);
             int v2 = indexForName(nextval);
 
             // add v2 to front of v1's adjacency list and
             // add v1 to front of v2's adjacency list
+            //                   = new Neighbour(vertexNum and next)
             adjLists[v1].adjList = new Neighbor(v2, adjLists[v1].adjList);
-            System.out.println(adjLists[v1].adjList.vertexNum);
+            //System.out.println(adjLists[v1].adjList.vertexNum);
             if (undirected) {
                 adjLists[v2].adjList = new Neighbor(v1, adjLists[v2].adjList);
-                System.out.println(adjLists[v2].adjList.vertexNum);
+                //System.out.println(adjLists[v2].adjList.vertexNum);
             }
         }
     }
@@ -81,7 +84,7 @@ public class Graph {
     }
 
     public void print() {
-        System.out.println();
+
         for (int v = 0; v < adjLists.length; v++) {
             System.out.print(adjLists[v].name);
             for (Neighbor nbr = adjLists[v].adjList; nbr != null; nbr = nbr.next) {

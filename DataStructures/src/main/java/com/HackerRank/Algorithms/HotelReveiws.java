@@ -51,7 +51,7 @@ public class HotelReveiws {
         // Sort
         //Set<Map.Entry<Integer,Integer>> entry = hotel2count.entrySet();
 
-        //assigning the set to arraylist
+        //assigning the hotel2count set to arraylist
         List<Map.Entry<Integer, Integer>> sorted = new ArrayList(hotel2count.entrySet());
         Collections.sort(sorted, new Comparator<Map.Entry<Integer, Integer>>() {
             @Override

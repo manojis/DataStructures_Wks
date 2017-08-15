@@ -5,6 +5,8 @@ import java.io.*;
 /**
  * @author Manoj.Mohanan Nair
  * @Date 8/10/2017
+ * input: 3,4,4,7,6 and find 10(sum of two numbers)
+ * output: True
  */
 
 public class TwoSum_Class {

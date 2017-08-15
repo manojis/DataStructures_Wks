@@ -15,12 +15,34 @@ public class Reverse_LinkedList {
 		input.add("mno");
 		input.add("pqr");
 		System.out.println(""+ input);
-		LinkedList<String> output= reverseLinkedList(input);
+		//ListNode output= reverseList(input);
 	}
-	private static LinkedList<String> reverseLinkedList(LinkedList<String> inputList){
 
 
-		return null;
+	public ListNode reverseList(ListNode head) {
+		if(head==null||head.next==null)
+			return head;
+
+		ListNode p1 = head;
+		ListNode p2 = p1.next;
+
+		head.next = null;
+		while(p1!=null&& p2!=null){
+			ListNode t = p2.next;
+			p2.next = p1;
+			p1 = p2;
+			p2 = t;
+		}
+
+		return p1;
+	}
+}
+
+class ListNode{
+	int data;
+	ListNode next;
+	ListNode(int element){
+		data = element;
 	}
 
 }
