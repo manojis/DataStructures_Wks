@@ -9,8 +9,8 @@ import java.util.*;
 public class KeyBoard_Row {
 
     public static void main(String[] args){
-        String[] input = new String[]{"Hello", "Alaska", "Dad", "Peace"};
-        String[] Reversed = reversed(input);
+        String[] words = new String[]{"Hello", "Alaska", "Dad", "Peace"};
+        String[] Reversed = reversed(words);
     }
 
     public static String[] reversed(String[] words) {

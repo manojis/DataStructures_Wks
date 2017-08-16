@@ -1,8 +1,6 @@
 package com.HackerRank.Algorithms;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author Manoj.Mohanan Nair
@@ -22,13 +20,23 @@ public class Replace_Words {
 
     public static String replaceWords(List<String> dict, String sentence) {
 
-        String[] inputs = sentence.split(" ");
-        String[] inpuzs = (String[]) dict.toArray();
+        if (dict == null || dict.size() == 0) return sentence;
 
-        HashMap<Integer,String> hMap = new HashMap<Integer, String>();
-        hMap.put(1,"cattle");
+        Set<String> set = new HashSet<>();
+        for (String s : dict) set.add(s);
 
+        StringBuilder sb = new StringBuilder();
+        String[] words = sentence.split("\\s+");
 
-        return null;
+        for (String word : words) {
+            String prefix = "";
+            for (int i = 1; i <= word.length(); i++) {
+                prefix = word.substring(0, i);
+                if (set.contains(prefix)) break;
+            }
+            sb.append(" " + prefix);
+        }
+
+        return sb.deleteCharAt(0).toString();
     }
 }

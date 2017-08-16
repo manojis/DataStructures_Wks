@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="581ffa18-d051-4fc9-822b-c08bc12f98b6" name="Default" comment="from macbook changes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/Graph/BFSearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/Graph/DFSearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Judge_Route_Circle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/DeltaEncoding.java" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/DeltaEncoding_NoIdea.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/StackPermutations.java" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/StackPermutations_Null.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructures/target/classes/com/linkedList/Reverse_LinkedList.class" afterPath="$PROJECT_DIR$/DataStructures/target/classes/com/linkedList/Reverse_LinkedList.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/Graph/Graph.java" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/Graph/Graph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/HotelReveiws.java" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/HotelReveiws.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/TwoSum_Class.java" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/TwoSum_Class.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/linkedList/Reverse_LinkedList.java" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/linkedList/Reverse_LinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/KeyBoard_Row.java" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/KeyBoard_Row.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Range_Search_Value.java" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Range_Search_Value.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Replace_Words.java" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Replace_Words.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/SetMismatch.java" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/SetMismatch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/SpaceReplacer.java" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/SpaceReplacer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/Sorting/RemoteSystemsTempFiles/bin/" />
     <ignored path="$PROJECT_DIR$/Sorting/bin/" />
@@ -37,35 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Min_Index_Sum_Lists.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Min_Index_Sum_Lists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#814#830#0" expanded="true" />
-                <element signature="e#881#889#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Range_Search_Value.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Range_Search_Value.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Reverse_LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/linkedList/Reverse_LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="150">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="e#773#774#0" expanded="true" />
                 <element signature="e#794#795#0" expanded="true" />
@@ -74,66 +51,133 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Judge_Route_Circle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Judge_Route_Circle.java">
+      <file leaf-file-name="Harmonious_Longest_SubSequence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Harmonious_Longest_SubSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Replace_Words.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Replace_Words.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/linkedList/LinkedList.java">
+      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2050">
-              <caret line="179" column="9" lean-forward="true" selection-start-line="179" selection-start-column="9" selection-end-line="179" selection-end-column="9" />
-              <folding>
-                <element signature="e#4453#4454#0" expanded="true" />
-                <element signature="e#4488#4489#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwoSum_Class.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/TwoSum_Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="555">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DFSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/Graph/DFSearch.java">
+      <file leaf-file-name="TrappingRainWater.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/TrappingRainWater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZeroSumChallenge.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/ZeroSumChallenge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpaceReplacer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/SpaceReplacer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Min_Index_Sum_Lists.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Min_Index_Sum_Lists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11">
+              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#881#889#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetMismatch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/SetMismatch.java">
+      <file leaf-file-name="NonRepeatingLongestSubString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/NonRepeatingLongestSubString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Range_Search_Value.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Range_Search_Value.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RearrangeString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/RearrangeString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Intersect_Arrays_Apple.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Intersect_Arrays_Apple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LuckyTicket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/LuckyTicket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyBoard_Row.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/KeyBoard_Row.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BFSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/Graph/BFSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -142,8 +186,8 @@
       <file leaf-file-name="HotelReveiws.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/HotelReveiws.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="55" column="74" lean-forward="false" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="74" />
+            <state relative-caret-position="453">
+              <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -172,6 +216,9 @@
       <find>comparable</find>
       <find>adjLists[v2]</find>
       <find>char[]</find>
+      <find>replaceall</find>
+      <find>map.entry</find>
+      <find>toarr</find>
     </findStrings>
     <replaceStrings>
       <replace>System.out.println</replace>
@@ -189,12 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Sorting/src/main/java/com/hashset/Hashset.java" />
-        <option value="$PROJECT_DIR$/Sorting/src/main/java/com/Misc/HolidayWorld.java" />
-        <option value="$PROJECT_DIR$/Sorting/src/main/java/com/Misc/Authorization.java" />
-        <option value="$PROJECT_DIR$/Sorting/src/main/java/com/sorting/insertion/selection/Selection_SortingDemo.java" />
-        <option value="$PROJECT_DIR$/Sorting/src/main/java/com/selection/Selection_SortingDemo.java" />
-        <option value="$PROJECT_DIR$/Sorting/src/main/java/com/sorting/selection/Selection_SortingDemo.java" />
         <option value="$PROJECT_DIR$/Sorting/src/main/java/com/sorting/selection/sorting/Selection_SortingDemo.java" />
         <option value="$PROJECT_DIR$/Sorting/src/main/java/com/sorting/sorting/Selection_SortingDemo.java" />
         <option value="$PROJECT_DIR$/Sorting/src/main/java/com/sorting/ArrayUtil.java" />
@@ -221,7 +262,6 @@
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/Misc/Authorization.java" />
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/linkedList/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/TestClass.java" />
-        <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/KeyBoard_Row.java" />
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/max_subarr.java" />
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/maximum_subarray.java" />
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/LongestContigousSubArray_2.java" />
@@ -232,7 +272,6 @@
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/DecodeString.java" />
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/max_subarray_average.java" />
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/function_duration.java" />
-        <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Replace_Words.java" />
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Min_Index_Sum_Lists.java" />
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/Graph/Graph.java" />
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/HotelReveiws.java" />
@@ -240,6 +279,14 @@
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/Graph/DFSearch.java" />
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/linkedList/Reverse_LinkedList.java" />
         <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Judge_Route_Circle.java" />
+        <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/SetMismatch.java" />
+        <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/DeltaEncoding.java" />
+        <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/DeltaEncoding_NoIdea.java" />
+        <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/SpaceReplacer.java" />
+        <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/KeyBoard_Row.java" />
+        <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Range_Search_Value.java" />
+        <option value="$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Replace_Words.java" />
       </list>
     </option>
   </component>
@@ -256,10 +303,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1680" />
+    <option name="y" value="23" />
     <option name="width" value="958" />
-    <option name="height" value="1080" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -371,7 +419,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -389,15 +437,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoSum_Class">
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ZeroSumChallenge">
+    <configuration name="LuckyTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.Graph.*" />
+          <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Graph.Graph" />
+      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.LuckyTicket" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -409,14 +457,14 @@
       <module name="DataStructures" />
       <envs />
     </configuration>
-    <configuration name="Min_Index_Sum_Lists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NonRepeatingLongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.Min_Index_Sum_Lists" />
+      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.NonRepeatingLongestSubString" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -428,14 +476,14 @@
       <module name="DataStructures" />
       <envs />
     </configuration>
-    <configuration name="Replace_Words" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Range_Search_Value" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.Replace_Words" />
+      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.Range_Search_Value" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -447,14 +495,33 @@
       <module name="DataStructures" />
       <envs />
     </configuration>
-    <configuration name="TwoSum_Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RearrangeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.TwoSum_Class" />
+      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.RearrangeString" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructures" />
+      <envs />
+    </configuration>
+    <configuration name="ZeroSumChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.ZeroSumChallenge" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -902,39 +969,20 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="function_duration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.function_duration" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataStructures" />
-      <envs />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Replace_Words" />
-      <item index="1" class="java.lang.String" itemvalue="Application.function_duration" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Min_Index_Sum_Lists" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Graph" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TwoSum_Class" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LuckyTicket" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NonRepeatingLongestSubString" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Range_Search_Value" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RearrangeString" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ZeroSumChallenge" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TwoSum_Class" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Graph" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Min_Index_Sum_Lists" />
-        <item index="3" class="java.lang.String" itemvalue="Application.function_duration" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Replace_Words" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ZeroSumChallenge" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RearrangeString" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Range_Search_Value" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NonRepeatingLongestSubString" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LuckyTicket" />
       </list>
     </recent_temporary>
   </component>
@@ -981,7 +1029,7 @@
       <workItem from="1502508439934" duration="1580000" />
       <workItem from="1502511600166" duration="262000" />
       <workItem from="1502574223938" duration="17811000" />
-      <workItem from="1502741953083" duration="15299000" />
+      <workItem from="1502741953083" duration="21225000" />
     </task>
     <task id="LOCAL-00001" summary="from macbook changes">
       <created>1502330523547</created>
@@ -994,7 +1042,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155455000" />
+    <option name="totallyTimeSpent" value="161381000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1006,7 +1054,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="0" width="958" height="1080" extended-state="0" />
+    <frame x="1680" y="23" width="958" height="978" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1017,14 +1065,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24067797" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23858921" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19326065" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19326065" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31619257" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270565" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1137,58 +1185,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/Misc/ReverseArr.java" />
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/Misc/MergeArray.java" />
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/sorting/merge/Simple_Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/substring_array/substring_count.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/DataStructures/LeftRotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/hashset/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="128" column="22" lean-forward="true" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/hashset/HashSetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/Misc/HashMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/Misc/max_subarr.java" />
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/binary_Search/Binary_Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/sorting/merge/Merge_SortDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1218,24 +1214,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="95" column="17" lean-forward="false" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Intersect_Arrays_Apple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="77" column="26" lean-forward="false" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1261,34 +1243,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/LongestContigousSubArray_2.java" />
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/DeltaEncoding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/BuySellStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/KeyBoard_Row.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/implementation/MyClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1310,22 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/DecodeString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/FileCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/max_subarray_average.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1334,34 +1272,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/function_duration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#447#0" expanded="true" />
-            <element signature="e#2174#2183#0" expanded="true" />
-            <element signature="e#2226#2235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/HolidayWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="743">
           <caret line="44" column="45" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="45" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Replace_Words.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1400,42 +1315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Min_Index_Sum_Lists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#814#830#0" expanded="true" />
-            <element signature="e#881#889#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/HotelReveiws.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="55" column="74" lean-forward="false" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/TwoSum_Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/SetMismatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/Graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -1457,16 +1336,8 @@
         <state relative-caret-position="255">
           <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Range_Search_Value.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1478,21 +1349,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/HotelReveiws.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/BuySellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/DeltaEncoding_NoIdea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/FileCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/function_duration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#447#0" expanded="true" />
+            <element signature="e#2174#2183#0" expanded="true" />
+            <element signature="e#2226#2235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/DecodeString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Harmonious_Longest_SubSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/SetMismatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/TwoSum_Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2050">
           <caret line="179" column="9" lean-forward="true" selection-start-line="179" selection-start-column="9" selection-end-line="179" selection-end-column="9" />
           <folding>
-            <element signature="e#4453#4454#0" expanded="true" />
-            <element signature="e#4488#4489#0" expanded="true" />
+            <element signature="e#4453#4454#0" expanded="false" />
+            <element signature="e#4488#4489#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Judge_Route_Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/linkedList/Reverse_LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="e#773#774#0" expanded="true" />
             <element signature="e#794#795#0" expanded="true" />
@@ -1500,11 +1464,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Judge_Route_Circle.java">
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/SpaceReplacer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Intersect_Arrays_Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/LuckyTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/KeyBoard_Row.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Power_Posi_Neg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Range_Search_Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/RearrangeString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/ReverseArr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/StackPermutations_Null.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Replace_Words.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/TrappingRainWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/ZeroSumChallenge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/NonRepeatingLongestSubString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/src/main/java/com/HackerRank/Algorithms/Min_Index_Sum_Lists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#881#889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

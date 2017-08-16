@@ -8,10 +8,10 @@ import java.util.Arrays;
 /**
  * Created by Manoj.Mohanan Nair on 7/14/2017.
  */
-public class DeltaEncoding {
+public class DeltaEncoding_NoIdea {
     public static void main(String[] args) throws java.lang.Exception {
         /*int[] input = new int[]{25626,25757,24367,24267,16,100,2,7277};
-        DeltaEncoding code = new DeltaEncoding();
+        DeltaEncoding_NoIdea code = new DeltaEncoding_NoIdea();
         code.output(input);*/
         DecimalFormat df = new DecimalFormat("###.###");
         //String val = df.format(20/15);

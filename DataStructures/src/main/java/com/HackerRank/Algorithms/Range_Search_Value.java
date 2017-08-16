@@ -13,7 +13,6 @@ import java.util.Arrays;
 public class Range_Search_Value {
     public static void main (String[] args) throws java.lang.Exception
     {
-        System.out.println("Hello Java");
         int[] input = new int[]{5,7,7,8,8,10};
         int val = 8;
         int[] output = range(input,val);
