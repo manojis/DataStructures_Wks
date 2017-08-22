@@ -1,9 +1,8 @@
 package com.implementation;
 
-import com.interfaces.alpha;
-import com.interfaces.beta;
+import com.Java_Experimentation.interfaces.alpha;
+import com.Java_Experimentation.interfaces.beta;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**

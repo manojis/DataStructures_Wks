@@ -1,4 +1,4 @@
-package com.Misc;
+package com.Java_Experimentation.interfaces;
 
 /**
  * Created by Mmanoj.Mohanan Nair on 7/18/2017.

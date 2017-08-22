@@ -1,4 +1,4 @@
-package com.Misc;
+package com.Java_Experimentation.interfaces;
 
 import java.util.HashMap;
 import java.util.Iterator;

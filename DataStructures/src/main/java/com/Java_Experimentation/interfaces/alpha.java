@@ -1,4 +1,4 @@
-package com.interfaces;
+package com.Java_Experimentation.interfaces;
 
 /**
  * Created by Manoj.Mohanan Nair on 3/28/2017.

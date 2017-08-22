@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.Misc;
+package com.Java_Experimentation.interfaces;
 
 /**
  * @author Manoj.Mohanan Nair
