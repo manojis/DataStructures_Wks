@@ -1,4 +1,4 @@
-package com.mapReduce;
+package com.Java_Experimentation.mapReduce;
 
 /**
  * @author Manoj.Mohanan Nair

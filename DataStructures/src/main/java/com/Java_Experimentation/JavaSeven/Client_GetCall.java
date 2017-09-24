@@ -82,4 +82,12 @@ public class Client_GetCall {
             e.printStackTrace();
         }
     }
+    public static void cassandra_Connection(){
+        /*Cluster cluster = Cluster.builder().addContactPoints("localhost").build();
+        Session session = cluster.connect("fun");
+        PreparedStatement prepared = session.prepare("select * from test");
+        ResultSet result = session.execute(prepared.bind());
+        logger.info("Columns before alter table: {}", getColumnDefinitions(result));*/
+        // Columns before alter table: [id, initial_column]
+    }
 }

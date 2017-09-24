@@ -23,7 +23,7 @@ public class HotelReveiws {
             dict.add(word.toLowerCase());
         }
 
-        // Read number of reviews
+        // Read numbehr of reviews
         int m = in.nextInt();
 
         // Read review

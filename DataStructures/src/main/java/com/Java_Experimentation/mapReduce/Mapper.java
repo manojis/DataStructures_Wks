@@ -1,4 +1,6 @@
-package com.mapReduce;
+package com.Java_Experimentation.mapReduce;
+
+import java.util.Stack;
 
 /**
  * @author Manoj.Mohanan Nair
@@ -6,6 +8,9 @@ package com.mapReduce;
  */
 public class Mapper {
 
+    public static void main(String[] args){
 
-
+    }
 }
+
+
