@@ -14,7 +14,7 @@ public class ExecutorServiceExp {
         ExecutorService executorService = Executors.newFixedThreadPool(2);
         List<Future<Integer>> servicList= new ArrayList<>();
 
-        /*for(int i=0;i<4;i++){
+        for(int i=0;i<4;i++){
             System.out.println("inside the for loop");
             Future<Integer> result = executorService.submit(new taskService(3));
             servicList.add(result);
@@ -22,7 +22,7 @@ public class ExecutorServiceExp {
 
         for(Future<Integer> res: servicList){
             System.out.println("value from get "+res.get()+ "; And Task done is " + res.isDone());
-        }*/
+        }
         ExecutorService runEx = Executors.newFixedThreadPool(2);
         for(int i=0;i<4;i++){
             System.out.println("value of i: "+ i);
@@ -36,6 +36,7 @@ public class ExecutorServiceExp {
             tpExecutor.execute(new taskService());
         }*/
         System.out.println("About to execute shutdown ");
+        executorService.shutdown();
         runEx.shutdown();
     }
 }
