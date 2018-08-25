@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9489cdc9-3085-4088-9779-a1b6cd301de9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/implementation/InnerStatic_Testing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/Harmonious_Longest_SubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/Harmonious_Longest_SubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/HackerRank/DataStructures/LeftRotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Misc/PrincessBot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Misc/PrincessBot_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Misc/PyramidMaxVal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Misc/groupon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/binary_Search/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/binary_Search/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/binary_Search/Binary_Search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hashset/HashSetDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedList/DoublyLinkedList$DoublyLinkedListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedList/DoublyLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedList/DoublyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedList/DoublyLinkedList_Simple$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedList/DoublyLinkedList_Simple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedList/LinkedList$LinkedListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedList/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedList/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/linkedList/Reverse_LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sorting/ArrayUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sorting/insertion/Insertion_Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sorting/merge/MergeSorter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sorting/merge/Merge_SortDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sorting/merge/Simple_Merge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sorting/quick_Sort/Quick_Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sorting/selection/Selection_Sorter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sorting/selection/Selection_SortingDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackAndQueue/LinkedListStack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackAndQueue/LinkedListStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/substring_array/substring_count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/implementation/InnerStatic_Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/implementation/InnerStatic_Testing.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,38 +31,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="388" />
+          <entry key="java" value="453" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="388" />
+          <entry key="JAVA" value="453" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/implementation/InnerStatic_Testing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="330">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
                 <element signature="e#122#123#0" expanded="true" />
                 <element signature="e#166#167#0" expanded="true" />
                 <element signature="e#462#463#0" expanded="true" />
                 <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/Harmonious_Longest_SubSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -117,8 +77,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/implementation/InnerStatic_Testing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/Harmonious_Longest_SubSequence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/implementation/InnerStatic_Testing.java" />
       </list>
     </option>
   </component>
@@ -201,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535225326163" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535226196142" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -251,12 +211,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535221512626</updated>
-      <workItem from="1535221515276" duration="1413000" />
+      <workItem from="1535221515276" duration="2118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1413000" />
+    <option name="totallyTimeSpent" value="2118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -269,14 +229,14 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17542888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,23 +266,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/Harmonious_Longest_SubSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/implementation/InnerStatic_Testing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="330">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
             <element signature="e#122#123#0" expanded="true" />
             <element signature="e#166#167#0" expanded="true" />
             <element signature="e#462#463#0" expanded="true" />
             <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/Harmonious_Longest_SubSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
