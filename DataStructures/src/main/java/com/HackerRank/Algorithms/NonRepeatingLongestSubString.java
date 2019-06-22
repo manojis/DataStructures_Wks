@@ -1,6 +1,7 @@
 package com.HackerRank.Algorithms;
 
 import java.util.HashMap;
+import java.util.HashSet;
 
 /**
  * Created by Manoj.Mohanan Nair on 7/13/2017.
@@ -19,6 +20,7 @@ public class NonRepeatingLongestSubString {
         int currentMaxCount = 0;
         int maxCount = 0;
         int size = input.length();
+
 
         try {
             HashMap<Integer, Boolean> hMap = new HashMap<Integer, Boolean>();

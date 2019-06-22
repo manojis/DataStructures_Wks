@@ -18,6 +18,7 @@ public class HotelReveiws {
 
         // Read dictionary
         String[] words = in.nextLine().split(" ");
+
         Set<String> dict = new HashSet<String>();
         for (String word : words) {
             dict.add(word.toLowerCase());

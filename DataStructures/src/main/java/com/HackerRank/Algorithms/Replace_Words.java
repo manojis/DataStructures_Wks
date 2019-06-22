@@ -1,5 +1,6 @@
 package com.HackerRank.Algorithms;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -9,34 +10,37 @@ import java.util.*;
 public class Replace_Words {
 
     public static void main(String[] args){
-        List<String> inputDict = new ArrayList<String>();
-        inputDict.add("cat");
-        inputDict.add("bat");
-        inputDict.add("rat");
-        inputDict.add("manoj");
-        String sentence = "the cattle was rattled by the battery";
-        replaceWords(inputDict,sentence);
-    }
 
-    public static String replaceWords(List<String> dict, String sentence) {
+        int num = 4;
+        ArrayList<String> output = new ArrayList<>();
+        String inputStr = "asdfaiuhriquwhieruyqio";
+        StringBuilder build = new StringBuilder();
+        Set<Character> in = new HashSet<>();
 
-        if (dict == null || dict.size() == 0) return sentence;
+        for(int i = 0;i<inputStr.length();i++){
 
-        Set<String> set = new HashSet<>();
-        for (String s : dict) set.add(s);
-
-        StringBuilder sb = new StringBuilder();
-        String[] words = sentence.split("\\s+");
-
-        for (String word : words) {
-            String prefix = "";
-            for (int i = 1; i <= word.length(); i++) {
-                prefix = word.substring(0, i);
-                if (set.contains(prefix)) break;
+            if(in.contains(inputStr.charAt(i))){
+                in.remove(inputStr.charAt(i));
+                in.add(inputStr.charAt(i));
+            }else{
+                in.add(inputStr.charAt(i));
             }
-            sb.append(" " + prefix);
-        }
 
-        return sb.deleteCharAt(0).toString();
+            if(in.size()==4){
+                for(char k :in){
+                    build.append(k);
+                }
+
+                output.add(String.valueOf(build));
+                build = new StringBuilder();
+                in = new HashSet<>();
+                i=i+1-num;
+                System.out.println("value: "+i);
+            }
+
+        }
+        System.out.println(output);
     }
+
+
 }
