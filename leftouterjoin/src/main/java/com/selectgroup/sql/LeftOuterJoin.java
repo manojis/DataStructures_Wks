@@ -90,6 +90,7 @@ public class LeftOuterJoin {
             fileWriter.append(FILE_HEADER.toString());
             fileWriter.append(NEW_LINE_SEPARATOR);
 
+
             for(Map.Entry<String,employee_join> joinEntry : employeeJoinMap.entrySet()){
                 fileWriter.append(joinEntry.getKey());
                 fileWriter.append(COMMA_DELIMITER);
