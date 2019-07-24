@@ -19,6 +19,7 @@ public class SumPairs {
             input.put(n,1);
         }
         if(!input.isEmpty()){
+
             for(int x: arrInput){
                 ArrayList<Integer> subList = new ArrayList<>();
                 int diff = sum - x;

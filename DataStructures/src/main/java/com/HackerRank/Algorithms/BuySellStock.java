@@ -7,7 +7,7 @@ package com.HackerRank.Algorithms;
 
 public class BuySellStock {
     public static void main(String[] args){
-        int[] input = new int[]{7, 1, 5, 3, 6, 4};
+        int[] input = new int[]{7, 2, 9, 1, 5, 3, 6, 4};
         int max = maxProfit(input);
 
         System.out.println("output is:"+max);
