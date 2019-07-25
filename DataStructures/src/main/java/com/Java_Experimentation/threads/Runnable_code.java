@@ -1,4 +1,4 @@
-package com.threads;
+package com.Java_Experimentation.threads;
 
 public class Runnable_code implements Runnable {
     public void run(){
