@@ -1,4 +1,4 @@
-package threads;
+package com.threads;
 
 public class ManyNames {
     public static void main(String[] args){

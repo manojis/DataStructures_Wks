@@ -1,4 +1,4 @@
-package threads;
+package com.threads;
 
 public class Account {
     private int balance = 50;

@@ -1,4 +1,4 @@
-package threads;
+package com.threads;
 
 public class Runnable_code implements Runnable {
     public void run(){
