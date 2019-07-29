@@ -161,7 +161,7 @@ public class WordCountAverage {
     }
 
     public static void main(String[] args) throws Exception {
-        Configuration conf = new Configuration();
+        /*Configuration conf = new Configuration();
         String[] otherArgs = new GenericOptionsParser(conf, args).getRemainingArgs();
         if (otherArgs.length != 2) {
             System.err.println("Usage: wordcount <in> <out>");
@@ -176,6 +176,6 @@ public class WordCountAverage {
         job.setOutputValueClass(IntPair.class);
         FileInputFormat.addInputPath(job, new Path(otherArgs[0]));
         FileOutputFormat.setOutputPath(job, new Path(otherArgs[1]));
-        System.exit(job.waitForCompletion(true) ? 0 : 1);
+        System.exit(job.waitForCompletion(true) ? 0 : 1);*/
     }
 }

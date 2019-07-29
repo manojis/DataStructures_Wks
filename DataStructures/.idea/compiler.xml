@@ -9,7 +9,8 @@
         <module name="Sorting" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
+      <module name="DataStructures" target="8" />
       <module name="Sorting" target="1.8" />
     </bytecodeTargetLevel>
   </component>
