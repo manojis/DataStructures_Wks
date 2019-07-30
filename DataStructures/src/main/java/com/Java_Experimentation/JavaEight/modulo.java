@@ -1,6 +1,7 @@
 package com.Java_Experimentation.JavaEight;
 
 import java.util.HashMap;
+import java.util.stream.Collectors;
 
 public class modulo {
     public static void main(String[] args) {
@@ -27,6 +28,7 @@ public class modulo {
         }
         String out = "";
         System.out.println("finalIndex "+ finalIndex);
+
         for (String output : intweekdays.keySet()) {
             if (intweekdays.get(output).equals(K)) {
                 System.out.println("value "+ output);
