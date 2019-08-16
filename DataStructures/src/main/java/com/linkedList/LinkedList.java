@@ -72,7 +72,7 @@ public class LinkedList {
 
     class LinkedListIterator implements ListIterator
     {
-        private Node position;
+        private Node current;
         private Node previous;
 
         /**
@@ -81,20 +81,20 @@ public class LinkedList {
          */
         public LinkedListIterator()
         {
-            position = null;
+            current = null;
             previous = null;
         }
 
         /**
-         Tests if there is an element after the iterator position.
-         @return true if there is an element after the iterator position
+         Tests if there is an element after the iterator current.
+         @return true if there is an element after the iterator current
          */
         public boolean hasNext()
         {
-            if (position == null)
+            if (current == null)
                 return first != null;
             else
-                return position.next != null;
+                return current.next != null;
         }
 
         /**
@@ -105,39 +105,43 @@ public class LinkedList {
         {
             if (!hasNext())
                 throw new NoSuchElementException();
-            //when pointing the current one to the position.next(line 115 does this),
+            //when pointing the current one to the current.next(line 115 does this),
             // ensure the current is assigned to previous
-            previous = position; // Remember for remove
+            previous = current; // Remember for remove
 
-            if (position == null)
-                position = first;
+            if (current == null)
+                current = first;
             else
-                position = position.next;
+                current = current.next;
 
-            return position.data;
+            return current.data;
         }
 
         /**
-         Adds an element before the iterator position
+         Adds an element before the iterator current
          and moves the iterator past the inserted element.
          @param element the element to add
          */
         public void add(Object element)
         {
-            if (position == null)
+            if (current == null)
             {
                 addFirst(element);
-                position = first;
+                current = first;
             }
             else
             {
+                // Really doubt this implementation.
+                // Check what should have been the actual requirement
+                // Dont remember but it should have been part of the linkedlist class
                 Node newNode = new Node();
                 newNode.data = element;
-                newNode.next = position.next;
-                position.next = newNode;
-                position = newNode;
+                newNode.next = current.next;
+                current.next = newNode;
+                // newNode.next = current;
+                current = newNode;
             }
-            previous = position;
+            previous = current;
         }
 
         /**
@@ -146,18 +150,18 @@ public class LinkedList {
          */
         public void remove()
         {
-            if (previous == position)
+            if (previous == current)
                 throw new IllegalStateException();
 
-            if (position == first)
+            if (current == first)
             {
                 removeFirst();
             }
             else
             {
-                previous.next = position.next;
+                previous.next = current.next;
             }
-            position = previous;
+            current = previous;
         }
 
         /**
@@ -166,9 +170,9 @@ public class LinkedList {
          */
         public void set(Object element)
         {
-            if (position == null)
+            if (current == null)
                 throw new NoSuchElementException();
-            position.data = element;
+            current.data = element;
         }
 
         public boolean hasPrevious() {
@@ -190,11 +194,20 @@ public class LinkedList {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Object manojElement = "firstReport";
+		Object manojElement = "first insert";
 		LinkedList manoj = new LinkedList();
 		System.out.println(manoj);
-		manoj.getFirst();
-		manoj.addFirst(manojElement);		
+		manoj.addFirst(manojElement);
+        System.out.println("showing the first insert: " + manoj.getFirst());
+        manoj.addFirst("Second insert");
+
+        LinkedListIterator iterator = (LinkedListIterator) manoj.listIterator();
+        iterator.add("adding element through iterator");
+        iterator.add("adding second element through iterator");
+
+        while(iterator.hasNext()){
+            System.out.println("Printing the iterator: "+ iterator.next());
+        }
 	}
 }
 
