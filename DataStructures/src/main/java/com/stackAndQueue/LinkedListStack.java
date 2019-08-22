@@ -60,7 +60,9 @@ public class LinkedListStack
         LinkedListStack stack = new LinkedListStack();
         stack.push("sss");
         stack.push("got it");
+        Object elem = stack.pop();
         System.out.println("Enter stack " +stack);
+        System.out.println("Enter value " +String.valueOf(elem));
 
     }
 }

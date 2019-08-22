@@ -67,7 +67,6 @@ public class ExternalSort {
         } while (currentSizeInBytes < targetSizeInBytes);
 
         pw.close();
-
         return file.getAbsolutePath();
     }
 
@@ -81,13 +80,11 @@ public class ExternalSort {
     private static String writeChunk(List<String> lines) throws IOException {
         File file = File.createTempFile("largefile-chunk", ".txt");
         file.deleteOnExit();
-
         PrintWriter pw = new PrintWriter(new FileWriter(file));
         for (String line : lines) {
             pw.println(line);
         }
         pw.close();
-
         return file.getAbsolutePath();
     }
 
@@ -117,7 +114,6 @@ public class ExternalSort {
                 lineList.clear();
             }
         }
-
         if (!lineList.isEmpty()) {
             // Write remaining
             Collections.sort(lineList);
@@ -125,7 +121,6 @@ public class ExternalSort {
             lineList.clear();
         }
         br.close();
-
         return chunkPaths;
     }
 

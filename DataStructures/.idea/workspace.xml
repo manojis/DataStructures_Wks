@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17222909-a85e-4169-aa2f-18c10186d0c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DataStructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ctci/ChartoAscii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ctci/ChartoAscii.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/externalSort/ExternalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/externalSort/ExternalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackAndQueue/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackAndQueue/LinkedListStack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +60,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedList">
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.LinkedList" />
+  <component name="RunManager" selected="Application.LinkedListStack">
+    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackAndQueue.LinkedListStack" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.linkedList.*" />
+          <option name="PATTERN" value="com.stackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,7 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.LinkedListStack" />
         <item itemvalue="Application.SpaceReplacement" />
       </list>
     </recent_temporary>
@@ -107,10 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565505584578</updated>
-      <workItem from="1565505588395" duration="8981000" />
-      <workItem from="1565754530515" duration="22000" />
-      <workItem from="1565754565255" duration="626000" />
-      <workItem from="1565931823979" duration="5140000" />
+      <workItem from="1565505588395" duration="7579000" />
     </task>
     <servers />
   </component>
@@ -129,6 +130,22 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ctci/SpaceReplacement.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ctci/SpaceReplacement.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataStructures$SpaceReplacement.ic" NAME="SpaceReplacement Coverage Results" MODIFIED="1565564586726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
