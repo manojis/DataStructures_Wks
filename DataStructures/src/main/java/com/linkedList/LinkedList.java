@@ -103,7 +103,8 @@ public class LinkedList {
          */
         public Object next()
         {
-            if (!hasNext())
+            boolean hasNext = hasNext();
+            if (!hasNext)
                 throw new NoSuchElementException();
             //when pointing the current one to the current.next(line 115 does this),
             // ensure the current is assigned to previous
