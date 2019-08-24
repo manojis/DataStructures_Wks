@@ -6,9 +6,9 @@ package com.Java_Experimentation.threads;
  */
 public class ThreadA {
     public static void main(String[] args){
-        ThreadB thr = new ThreadB();
+        ThreadB thr = new ThreadB(10);
         thr.start();
-        ThreadB ths = new ThreadB();
+        ThreadB ths = new ThreadB(20);
         ths.start();
 
         synchronized (thr){
