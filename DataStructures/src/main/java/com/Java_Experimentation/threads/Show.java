@@ -9,10 +9,10 @@ import java.util.Set;
  */
 public class Show {
     // create a singleton instance
-    private static Show INSTANCE;
+    private static volatile Show INSTANCE;
     private Set<String> availableSeats;
 
-    public static Show getInstance() {
+    public static synchronized Show getInstance() {
         if(INSTANCE == null) {
             INSTANCE = new Show();
         }
