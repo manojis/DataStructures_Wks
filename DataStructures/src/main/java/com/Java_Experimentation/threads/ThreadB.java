@@ -7,17 +7,17 @@ package com.Java_Experimentation.threads;
 public class ThreadB extends Thread{
     int total =0;
 
-    public ThreadB(int total){
+    /*public ThreadB(int total){
         this.total = total;
     }
-
+*/
     public void run(){
-        System.out.println("Entering the run method"+ Thread.currentThread().getName());
+        System.out.println("Entering the run method "+ Thread.currentThread().getName());
         synchronized (this){
-            System.out.println("Entering the synchronized method"+ Thread.currentThread().getName());
-            for(int i=0;i<100; i++){
+            System.out.println("Entering the synchronized method "+ Thread.currentThread().getName());
+            for(int i=0;i<10; i++){
                 total += i;
-                System.out.println("value: "+total + " "+ Thread.currentThread().getName());
+                System.out.println("value: "+total + " Thread: "+ Thread.currentThread().getName());
             }
             notify();
         }

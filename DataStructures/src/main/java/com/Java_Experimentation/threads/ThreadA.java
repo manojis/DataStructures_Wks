@@ -6,10 +6,11 @@ package com.Java_Experimentation.threads;
  */
 public class ThreadA {
     public static void main(String[] args){
-        ThreadB thr = new ThreadB(10);
+        ThreadB thr = new ThreadB();
+        thr.setName("manoj");
         thr.start();
-        ThreadB ths = new ThreadB(20);
-        ths.start();
+        /*ThreadB ths = new ThreadB(20);
+        ths.start();*/
 
         synchronized (thr){
             try{
@@ -18,6 +19,8 @@ public class ThreadA {
             }catch (InterruptedException e) {
                 System.out.println("total is: "+ thr.total);
             }
+            System.out.println("Exiting synchronized b to complete");
         }
+        System.out.println("Exited the synchronized block b");
     }
 }

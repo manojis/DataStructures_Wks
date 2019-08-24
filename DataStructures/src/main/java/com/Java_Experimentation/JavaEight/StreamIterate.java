@@ -13,8 +13,8 @@ import java.util.stream.Stream;
  */
 public class StreamIterate {
     public static void main(String[] args){
-        List<ThreadB> threadb = Stream.iterate(0, n -> n+1)
+        /*List<ThreadB> threadb = Stream.iterate(0, n -> n+1)
                 .map(ThreadB::new).limit(11).collect(Collectors.toList());
-        threadb.forEach(ThreadB::start);
+        threadb.forEach(ThreadB::start);*/
     }
 }
