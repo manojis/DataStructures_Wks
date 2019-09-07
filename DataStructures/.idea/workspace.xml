@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedList/LinkedList_Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/JavaEight/StreamIterate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/JavaEight/StreamIterate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/threads/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/threads/ThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/threads/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/threads/ThreadB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hashset/HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hashset/HashSet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +141,7 @@
       <updated>1565505584578</updated>
       <workItem from="1565505588395" duration="7579000" />
       <workItem from="1566635417535" duration="1618000" />
+      <workItem from="1567832572128" duration="95000" />
     </task>
     <servers />
   </component>

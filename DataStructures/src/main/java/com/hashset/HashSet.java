@@ -34,11 +34,10 @@ public class HashSet extends AbstractSet
 
       /**
       Constructs a hash table.
-      @param bucketsLength the length of the buckets array
-      */
-     public HashSet(int bucketsLength)
+       */
+     public HashSet()
      {
-          buckets = new Node[bucketsLength];
+          buckets = new Node[buckets.length];
           size = 0;
      }
 
