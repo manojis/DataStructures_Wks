@@ -6,24 +6,25 @@ package leetcode;
  */
 public class MovingAverageStream {
 
-    private int[] arr;
-    int index, n;
-    private int sum;
+    int index = 0;
+    int curr = 0;
+    int sum = 0;
+    int[] inputStream;
 
     public MovingAverageStream(int size) {
-        arr = new int[size];
-        index = 0;
-        sum = 0;
+        inputStream = new int[size];
     }
     public double next(int val){
-        if(n < arr.length){
-            n++;
+        // if index >= 3 then dont increment
+        if(index < inputStream.length){
+            index++;
         }
-        sum = sum - arr[index];
+        sum = sum - inputStream[curr];
+        inputStream[curr] = val;
         sum = sum + val;
-        arr[index] = val;
-        index = (index + 1)%(arr.length);
-        return (double)sum/n;
+        // divider needs to start from 0,1,2,and maintain 3.
+        curr = (curr + 1) % (inputStream.length);
+        return (double)sum / index;
     }
     public static void main(String[] args){
         double avg = 0;
