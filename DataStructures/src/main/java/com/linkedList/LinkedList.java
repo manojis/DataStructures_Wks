@@ -3,7 +3,7 @@ package com.linkedList;
 
 import java.util.*;
 
-public class LinkedList {	
+public class LinkedList {
 	
 	//A linked list object holds a reference to the first node, and each node holds a reference to the next node
 	//Here variable "first" is the linked list object.
