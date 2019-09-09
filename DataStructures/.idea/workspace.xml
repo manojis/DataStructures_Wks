@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dynamicrecursion/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Graph/BFSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Graph/BFSearch.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MovingAverageStream">
+  <component name="RunManager" selected="Application.ReverseString">
     <configuration name="MovingAverageStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.MovingAverageStream" />
       <module name="Sorting" />
@@ -58,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamIterate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Java_Experimentation.JavaEight.StreamIterate" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dynamicrecursion.ReverseString" />
       <module name="Sorting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Java_Experimentation.JavaEight.*" />
+          <option name="PATTERN" value="com.dynamicrecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,19 +114,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamIterate" />
       <item itemvalue="Application.TestingStreams" />
       <item itemvalue="Application.TestShow" />
       <item itemvalue="Application.ThreadA" />
       <item itemvalue="Application.MovingAverageStream" />
+      <item itemvalue="Application.ReverseString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.MovingAverageStream" />
         <item itemvalue="Application.ThreadA" />
         <item itemvalue="Application.TestShow" />
         <item itemvalue="Application.TestingStreams" />
-        <item itemvalue="Application.StreamIterate" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +141,8 @@
       <updated>1565505584578</updated>
       <workItem from="1565505588395" duration="7579000" />
       <workItem from="1566635417535" duration="1618000" />
-      <workItem from="1567832572128" duration="9287000" />
+      <workItem from="1567832572128" duration="10162000" />
+      <workItem from="1568051847186" duration="3522000" />
     </task>
     <servers />
   </component>
@@ -182,8 +186,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/MovingAverageStream.java</url>
-          <line>29</line>
+          <line>30</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dynamicrecursion/ReverseString.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/com/linkedList/LinkedList.java</url>
