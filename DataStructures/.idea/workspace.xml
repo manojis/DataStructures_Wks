@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dynamicrecursion/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/binary_Search/BinarySearchTree_old.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Graph/BFSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Graph/BFSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/binary_Search/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binary_Search/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +15,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +48,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,7 +62,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseString">
+  <component name="RunManager" selected="Application.BinarySearchTree">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.binary_Search.BinarySearchTree" />
+      <module name="Sorting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.binary_Search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MovingAverageStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.MovingAverageStream" />
       <module name="Sorting" />
@@ -87,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Java_Experimentation.JavaEight.TestingStreams" />
-      <module name="Sorting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Java_Experimentation.JavaEight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Java_Experimentation.threads.ThreadA" />
       <module name="DataStructures" />
@@ -114,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestingStreams" />
       <item itemvalue="Application.TestShow" />
       <item itemvalue="Application.ThreadA" />
       <item itemvalue="Application.MovingAverageStream" />
       <item itemvalue="Application.ReverseString" />
+      <item itemvalue="Application.BinarySearchTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.MovingAverageStream" />
         <item itemvalue="Application.ThreadA" />
         <item itemvalue="Application.TestShow" />
-        <item itemvalue="Application.TestingStreams" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +157,8 @@
       <workItem from="1565505588395" duration="7579000" />
       <workItem from="1566635417535" duration="1618000" />
       <workItem from="1567832572128" duration="10162000" />
-      <workItem from="1568051847186" duration="3522000" />
+      <workItem from="1568051847186" duration="5333000" />
+      <workItem from="1568077106010" duration="11209000" />
     </task>
     <servers />
   </component>
@@ -193,6 +209,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/dynamicrecursion/ReverseString.java</url>
           <line>21</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/binary_Search/BinarySearchTree.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/binary_Search/BinarySearchTree.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/com/linkedList/LinkedList.java</url>
