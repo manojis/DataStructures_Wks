@@ -43,7 +43,7 @@ public class function_duration {
         System.out.println(Arrays.toString(output));
      }
 
-    //leetcode solution
+    //com.leetcode solution
      public static int[] exclusiveTime(int n,List<String> logs){
          int[] res = new int[n];
          //push the functionId into stack

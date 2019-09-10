@@ -1,4 +1,4 @@
-package leetcode;
+package com.leetcode;
 
 /**
  * @author Manoj.Mohanan Nair
