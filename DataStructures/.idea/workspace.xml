@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/LCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/ReverseStringsRecursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -45,6 +49,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -59,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
+  <component name="RunManager" selected="Application.ReverseStringsRecursion">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.binary_Search.BinarySearchTree" />
       <module name="Sorting" />
@@ -73,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovingAverageStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.MovingAverageStream" />
+    <configuration name="LCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.LCP" />
       <module name="Sorting" />
       <extension name="coverage">
         <pattern>
@@ -86,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dynamicrecursion.ReverseString" />
+    <configuration name="ReverseString (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.ReverseString" />
       <module name="Sorting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dynamicrecursion.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestShow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Java_Experimentation.threads.TestShow" />
+    <configuration name="ReverseStringsRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.ReverseStringsRecursion" />
       <module name="Sorting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Java_Experimentation.threads.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Java_Experimentation.threads.ThreadA" />
-      <module name="DataStructures" />
+    <configuration name="ReverseStringsUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.ReverseStringsUsingRecursion" />
+      <module name="Sorting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Java_Experimentation.threads.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestShow" />
-      <item itemvalue="Application.ThreadA" />
-      <item itemvalue="Application.MovingAverageStream" />
-      <item itemvalue="Application.ReverseString" />
       <item itemvalue="Application.BinarySearchTree" />
+      <item itemvalue="Application.LCP" />
+      <item itemvalue="Application.ReverseString (1)" />
+      <item itemvalue="Application.ReverseStringsUsingRecursion" />
+      <item itemvalue="Application.ReverseStringsRecursion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseStringsRecursion" />
+        <item itemvalue="Application.ReverseStringsUsingRecursion" />
+        <item itemvalue="Application.ReverseString (1)" />
+        <item itemvalue="Application.LCP" />
         <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.MovingAverageStream" />
-        <item itemvalue="Application.ThreadA" />
-        <item itemvalue="Application.TestShow" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +160,7 @@
       <workItem from="1566635417535" duration="1618000" />
       <workItem from="1567832572128" duration="10162000" />
       <workItem from="1568051847186" duration="5333000" />
-      <workItem from="1568077106010" duration="12441000" />
+      <workItem from="1568077106010" duration="26062000" />
     </task>
     <servers />
   </component>
@@ -198,7 +203,7 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/MovingAverageStream.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/MovingAverageStream.java</url>
           <line>30</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
@@ -216,6 +221,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/binary_Search/BinarySearchTree.java</url>
           <line>203</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/function_duration.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/LCP.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/ReverseString.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/ReverseStringsRecursion.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/com/linkedList/LinkedList.java</url>
