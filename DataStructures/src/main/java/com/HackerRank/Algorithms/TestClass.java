@@ -9,15 +9,22 @@ public class TestClass {
 
     public static void main (String[] args) throws java.lang.Exception
     {
-
-        TestClass tc = new TestClass();
-
+       int value = 65;
+       int check_bit = 1 << 6;
+       int and_bit =  value & check_bit;
+        System.out.println(and_bit);
+       if(and_bit == check_bit){
+           System.out.println(1);
+       } else {
+           System.out.println(0);
+       }
+        /*TestClass tc = new TestClass();
         tc.add(4);
         tc.add(5);
         tc.add(6);
         tc.add(4);
         tc.add(8);
-        System.out.println("ok");
+        System.out.println("ok");*/
     }
 
     public void add(int value){
