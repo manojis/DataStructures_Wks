@@ -2,6 +2,7 @@ package com.HackerRank.Algorithms;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Vector;
 
 public class TestClass {
 
@@ -9,15 +10,7 @@ public class TestClass {
 
     public static void main (String[] args) throws java.lang.Exception
     {
-       int value = 65;
-       int check_bit = 1 << 6;
-       int and_bit =  value & check_bit;
-        System.out.println(and_bit);
-       if(and_bit == check_bit){
-           System.out.println(1);
-       } else {
-           System.out.println(0);
-       }
+        int hashTableSize = 20;
         /*TestClass tc = new TestClass();
         tc.add(4);
         tc.add(5);
