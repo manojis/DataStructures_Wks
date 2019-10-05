@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/FrogJumpII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/SubstringAndSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algo6515/dpv/Dpv_6_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algo6515/dpv/Dpv_6_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algo6515/dpv/KnapsackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/GameWinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/Preorder_Dfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackAndQueue/StackExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ctci/ChartoAscii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ctci/ChartoAscii.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,31 +59,31 @@
   </component>
   <component name="ProjectId" id="1PGfvUX7xr1jBt105KBXoLFg2mW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="com.algo6515.dpv" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
-    <configuration name="LCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.LCP" />
-      <module name="Sorting" />
+  <component name="RunManager" selected="Application.FrogJumpII">
+    <configuration name="Dpv_6_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algo6515.dpv.Dpv_6_8" />
+      <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.algo6515.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.ReverseString" />
-      <module name="Sorting" />
+    <configuration name="FrogJumpII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algo6515.HW6515.FrogJumpII" />
+      <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.algo6515.HW6515.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseStringsRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.ReverseStringsRecursion" />
-      <module name="Sorting" />
+    <configuration name="KnapsackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algo6515.dpv.KnapsackTest" />
+      <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.algo6515.dpv.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseStringsUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.ReverseStringsUsingRecursion" />
-      <module name="Sorting" />
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algo6515.HW6515.LongestPalindrome" />
+      <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.algo6515.HW6515.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,36 +130,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.TestClass" />
-      <module name="Sorting" />
+    <configuration name="SubstringAndSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algo6515.HW6515.SubstringAndSubsequence" />
+      <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
+          <option name="PATTERN" value="com.algo6515.HW6515.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LCP" />
-      <item itemvalue="Application.ReverseString (1)" />
-      <item itemvalue="Application.ReverseStringsUsingRecursion" />
-      <item itemvalue="Application.ReverseStringsRecursion" />
-      <item itemvalue="Application.TestClass" />
+      <item itemvalue="Application.Dpv_6_8" />
+      <item itemvalue="Application.SubstringAndSubsequence" />
+      <item itemvalue="Application.LongestPalindrome" />
+      <item itemvalue="Application.KnapsackTest" />
+      <item itemvalue="Application.FrogJumpII" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.ReverseStringsRecursion" />
-        <item itemvalue="Application.ReverseStringsUsingRecursion" />
-        <item itemvalue="Application.ReverseString (1)" />
-        <item itemvalue="Application.LCP" />
+        <item itemvalue="Application.FrogJumpII" />
+        <item itemvalue="Application.KnapsackTest" />
+        <item itemvalue="Application.LongestPalindrome" />
+        <item itemvalue="Application.SubstringAndSubsequence" />
+        <item itemvalue="Application.Dpv_6_8" />
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -164,24 +204,43 @@
       <workItem from="1568311696616" duration="31000" />
       <workItem from="1570250989987" duration="27000" />
       <workItem from="1570251043091" duration="1829000" />
+      <workItem from="1571562740407" duration="1185000" />
+      <workItem from="1572934546934" duration="18000" />
+      <workItem from="1575355376330" duration="3666000" />
+      <workItem from="1578804806439" duration="3000" />
+      <workItem from="1580368172108" duration="4000" />
+      <workItem from="1580378622702" duration="11000" />
+      <workItem from="1611385009276" duration="8000" />
+      <workItem from="1611385027804" duration="917000" />
+      <workItem from="1611385972116" duration="3994000" />
+      <workItem from="1611439265761" duration="1540000" />
+      <workItem from="1611525000454" duration="2192000" />
+      <workItem from="1611563786596" duration="338000" />
+      <workItem from="1611728552244" duration="369000" />
+      <workItem from="1611900602999" duration="304000" />
+      <workItem from="1611905177104" duration="301000" />
+      <workItem from="1611905500216" duration="2459000" />
+      <workItem from="1612161174550" duration="2430000" />
+      <workItem from="1612164081557" duration="2982000" />
+      <workItem from="1613724826845" duration="706000" />
+      <workItem from="1613765720492" duration="845000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -244,6 +303,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/ReverseStringsRecursion.java</url>
           <line>11</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/ClimbingStairs.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/algo6515/temp/Dpv_6_4.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/FrogJumpII.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/com/linkedList/LinkedList.java</url>
