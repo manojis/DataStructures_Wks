@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.recursion;
 
 /**
  * @author Manoj.Mohanan Nair

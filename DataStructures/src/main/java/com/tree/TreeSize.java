@@ -43,7 +43,6 @@ public class TreeSize {
     }
 }
 
-
 class Node
 {
     int data;

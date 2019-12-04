@@ -9,7 +9,8 @@ import java.util.*;
 public class Kill_Process {
 
     public static void main(String[] args){
-
+        List<List<Integer>> output = new ArrayList<List<Integer>>();
+        List<Integer> temp = new ArrayList<Integer>();
     }
 
     public List<Integer> killProcess(List<Integer> pid, List<Integer> ppid, int kill) {
