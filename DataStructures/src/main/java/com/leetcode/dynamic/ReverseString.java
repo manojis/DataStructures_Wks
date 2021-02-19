@@ -1,4 +1,4 @@
-package com.dynamicrecursion;
+package com.leetcode.dynamic;
 
 import java.util.ArrayList;
 

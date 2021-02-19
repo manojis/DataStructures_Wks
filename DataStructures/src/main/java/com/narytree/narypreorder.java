@@ -27,7 +27,7 @@ public class narypreorder {
             values.add(temp.val);
 
             List<Node> childrens = temp.children;
-
+            // or use Collections.reverse(node.children);
             for (int i=childrens.size()-1; i>=0; i--) {
                 stack.push(childrens.get(i));
             }
