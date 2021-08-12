@@ -6,7 +6,7 @@ package com.algo6515.HW6515;
  */
 public class MaxProductOperator {
     public static void main(String [] args){
-        System.out.println("Output max product: " + solve("48567", 2));
+        System.out.println("Output max product: " + solve("4185672", 3));
     }
 
     static long solve(String digits, int operator)
@@ -50,9 +50,11 @@ public class MaxProductOperator {
         long max = -1;
         for (int i = 1; i < A.length; i++)
         {
-            System.out.println("i: "+i + " substrings[i][A.length]: "
-                    + substrings[i][A.length] + "A[i][operator]: "+A[i][operator]);
+            long product = substrings[i][A.length] * A[i][operator];
             max = Math.max(max, substrings[i][A.length] * A[i][operator]);
+            System.out.println("i: "+i + " substrings[i][A.length]: "
+                    + substrings[i][A.length] + " A[i][operator]: "+A[i][operator]
+                    + " product: "+product + " max: "+ max);
         }
         return max;
     }
