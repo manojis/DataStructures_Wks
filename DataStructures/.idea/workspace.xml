@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dynamic/SortedMagicIndex.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/Dijkstra_MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/MaximumPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/MinimumPriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/MaxProductOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/MaxProductOperator.java" afterDir="false" />
+>>>>>>> e8df2d70312b718ceff9d7de9c8e48230dcf395f
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +64,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Github_MedicalSearch/my-sys-decom/PatientDetailsPdfService" />
+>>>>>>> e8df2d70312b718ceff9d7de9c8e48230dcf395f
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -130,6 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -141,6 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+>>>>>>> e8df2d70312b718ceff9d7de9c8e48230dcf395f
     <list>
       <item itemvalue="Application.SubstringAndSubsequence" />
       <item itemvalue="Application.LongestPalindrome" />
@@ -216,7 +233,10 @@
       <workItem from="1616924251113" duration="29000" />
       <workItem from="1619337566628" duration="157000" />
       <workItem from="1619337782045" duration="1929000" />
+<<<<<<< HEAD
       <workItem from="1628752576276" duration="754000" />
+=======
+>>>>>>> e8df2d70312b718ceff9d7de9c8e48230dcf395f
     </task>
     <servers />
   </component>
