@@ -11,12 +11,29 @@ package com.algo6515.HW6515;
  * Input: A = a; b; c; d; a; f
  * Output: 3
  * Explanation: a; c; a is longest symmetrikc subsequence of A.
+ * https://www.youtube.com/watch?v=TLaGwTnd3HY
  */
 public class LongestPalindrome {
     public static void main(String[] args){
         LongestPalindrome l = new LongestPalindrome();
         System.out.println(l.longestPalindromeSubseq("ACGTGTCAAAATCG"));
     }
+    /*public int longestPalindromeSubseq(String s) {
+
+        int size=s.length();
+        int[][] dp = new int[size][size];
+        for(int i=size-1;i>=0;i--){
+            dp[i][i]=1;
+            for(int j=i+1;j<size;j++){
+                if(s.charAt(i)==s.charAt(j)){
+                    dp[i][j]=dp[i+1][j-1]+2;
+                }else{
+                    dp[i][j]=Math.max(dp[i+1][j],dp[i][j-1]);
+                }
+            }
+        }
+        return dp[0][size-1];
+    }*/
     public int longestPalindromeSubseq(String s) {
         // create a matrix.
         int[][] d = new int[s.length()][s.length()];
