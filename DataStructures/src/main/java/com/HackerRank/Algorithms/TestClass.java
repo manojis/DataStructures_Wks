@@ -21,6 +21,7 @@ public class TestClass {
     }
 
     public void add(int value){
+
         int count =0;
         if(hMap!=null && hMap.containsKey(value)){
             count = hMap.get(value);
