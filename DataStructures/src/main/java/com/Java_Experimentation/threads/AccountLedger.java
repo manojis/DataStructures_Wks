@@ -1,6 +1,4 @@
-package threads;
-
-import com.Java_Experimentation.threads.Account;
+package com.Java_Experimentation.threads;
 
 public class AccountLedger implements Runnable {
 
