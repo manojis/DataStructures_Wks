@@ -9,13 +9,11 @@ public class Blanagrams {
 	public static boolean checkBlanagrams(String word1, String word2) {
 		int len;
 		int[] lenarray = new int[26];
-		if (word1.length() > word2.length()) {
-			len = word2.length();
-		} else {
-			len = word1.length();
+		if (word1.length() != word2.length()) {
+			return false;
 		}
 
-		for (int i = 0; i < len; i++) {
+		for (int i = 0; i < word1.length(); i++) {
 
 			lenarray[word1.charAt(i) - 'a']++;
 			lenarray[word2.charAt(i) - 'a']--;
