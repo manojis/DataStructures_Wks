@@ -1,0 +1,44 @@
+We are building a small API service which rates top N car Dealerships in the city based on the customer reviews. 
+Input will be DealerId along with review provided by the customers for each of the dealerships and a string containing dictionary of good words. 
+Top N car dealership service provides an output of N dealerships in descending order based on the goodness value. "GoodNess value" is defined as the total count of "good words" (from the dictionary) present in each of the reviews.
+==============================================================
+good clean neat great perfect best exceptional amazing
+
+4
+
+110
+The cars were clean, very comfortable, and the staff was amazing. They went over and beyond to help make our sales enjoyable. I highly recommend this showroom for anyone looking for a budget vehicle.
+
+
+220
+Staff were extremely accommodating and allowed us to check as much as cars possible. They had a pretty big warehouse. So this was a big plus. The sevice was exceptional as well. Would definitely refer a friend there.
+
+330
+This is the perfect secondhand car showroom in downtown. The avaiability of some rare cars is a best kept secret and with a pretty big warehouse they offer everything you need.
+
+440
+Overall, I had a great experience buying car from xx secondhand car showroom; staff was incredibly helpful, and the pool of cars were great. The cars were kept neat annd clean. They alsol offered pretty good discounts.
+==============================================================
+
+Output
+======
+440 5
+110 2
+330 2
+220 1
+=============================================================
+
+
+Amazing service at the service department! Especially from (DN). She took care of our cars and provided 5 star service at every step!
+
+It could not have been more seamless and made the process very pleasant. Their attention to detail and my satisfaction was unparalleled- going above and beyond in every aspect!
+
+Smooth transaction and very helpful staff made my first car buying experience easy. (DN) and the crew have given me their full attention to all my car needs. Thanks again for the great help!
+
+This was the easiest dealership I have worked with. I was in and out in 2 hours. (DN) was efficient but also made sure that everything was covered at the best price in town. I recommended anyone to go see (DN)
+
+DN) helped us find the perfect car for us! He took the time to listen to our needs and budget, and had several quick recommendations. We loved being able to look at it and test drive it without him hovering, and the whole experience took less than 2 hours on a Saturday! Our experience at (CD) was so much better, easier, and faster than at a major dealership, and we will definitely go back the next time we need a used car.
+
+Outstanding service! Very happy with the purchase of my car. I have purchased a few vehicles from here over the years and they have all been reliable. (DN) was helpful and answered my questions!
+
+The buyer fully inspected the vehicle. Pictures were uploaded and I recieved an offer within 30 minutes which I accepted. Smooth and fair transaction.
