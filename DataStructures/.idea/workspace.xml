@@ -6,42 +6,51 @@
   <component name="ChangeListManager">
     <list default="true" id="b6d6b2cf-1839-408d-ac82-89b84b625bea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/HotelReveiws.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/HotelReveiws.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/HeadFirst/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/HeadFirst/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/HeadFirst/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/HeadFirst/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/LruCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/LruCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/LruCache_LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/LruCache_LeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutort/forwardNBackwardloop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutort/forwardNBackwardloop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21GTf4BtMGn3cZcyyo55NcImXFI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RunManager">
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.ReverseString" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/mohitha/Extension/Github/Github_MedicalSearch/my-sys-decom&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.HotelReveiws (4)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -53,9 +62,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HotelReveiws (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.HotelReveiws" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelReveiws (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.HotelReveiws" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelReveiws (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.HotelReveiws" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelReveiws (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.HotelReveiws" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelReveiws" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.HotelReveiws" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.HotelReveiws (4)" />
+        <item itemvalue="Application.HotelReveiws (3)" />
+        <item itemvalue="Application.HotelReveiws" />
+        <item itemvalue="Application.HotelReveiws (2)" />
+        <item itemvalue="Application.HotelReveiws (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -71,6 +149,22 @@
       <workItem from="1637566528149" duration="110000" />
       <workItem from="1637653858801" duration="79000" />
       <workItem from="1638167145846" duration="713000" />
+      <workItem from="1659737177932" duration="182000" />
+      <workItem from="1659740091840" duration="83000" />
+      <workItem from="1659900964496" duration="316000" />
+      <workItem from="1659920042777" duration="50000" />
+      <workItem from="1659920100639" duration="192000" />
+      <workItem from="1660030301375" duration="2791000" />
+      <workItem from="1660754064675" duration="1479000" />
+      <workItem from="1660877760971" duration="461000" />
+      <workItem from="1660930278504" duration="739000" />
+      <workItem from="1661574932304" duration="1169000" />
+      <workItem from="1669537763287" duration="2169000" />
+      <workItem from="1672822103016" duration="91000" />
+      <workItem from="1672822213454" duration="249000" />
+      <workItem from="1672822479139" duration="397000" />
+      <workItem from="1676190861932" duration="2350000" />
+      <workItem from="1683696517953" duration="3200000" />
     </task>
     <servers />
   </component>
@@ -93,7 +187,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -104,6 +198,30 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/LruCache.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/LruCache.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/HotelReveiws.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

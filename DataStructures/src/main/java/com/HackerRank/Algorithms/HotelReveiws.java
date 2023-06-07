@@ -58,10 +58,8 @@ public class HotelReveiws {
             @Override
             public int compare(Map.Entry<Integer, Integer> o1, Map.Entry<Integer, Integer> o2) {
                 if (o1.getValue() == o2.getValue()) {
-                    System.out.println(">>--->" + (o1.getKey() - o2.getKey()));
                     return o1.getKey() - o2.getKey();
                 } else {
-                    System.out.println("--->" + (o2.getValue() - o1.getValue()));
                     return o2.getValue() - o1.getValue();
                 }
             }
@@ -69,7 +67,7 @@ public class HotelReveiws {
 
         // Print sorted list
         for (Map.Entry<Integer, Integer> hotelEntry : sorted) {
-            System.out.print(hotelEntry.getKey() + " ");
+            System.out.print(hotelEntry.getKey() + " " + hotelEntry.getValue() + "\n");
         }
     }
 }
