@@ -1,0 +1,142 @@
+package com.design.lld;
+
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+enum NotificationType {
+    sms,
+    email,
+    whatsapp
+}
+
+abstract class Notification{
+    int id;
+    NotificationType notification_type;
+}
+
+class EmailNotification extends Notification {
+    String fromEmailId;
+    String toEmailId;
+    List<String> cc;
+    String subject;
+}
+
+class SmsNotification extends Notification {
+    String toNumber;
+    String body;
+}
+
+class WhatsappNotification extends Notification {
+    String toNumber;
+    String body;
+}
+
+
+interface NotificationHandler{
+    void sendNotification(Notification notification);
+}
+
+class EmailNotificationHandler implements NotificationHandler{
+
+    void sendNotification(Notification notification){
+        //logic responsible to delivery the notification via email 
+    }
+
+}
+
+class SmsNotificationHandler implements NotificationHandler{
+
+    void sendNotification(Notification notification){
+        //logic responsible to delivery the notification via sms 
+    }
+}
+
+class WhatsappNotificationHandler implements NotificationHandler{
+
+    void sendNotification(Notification notification){
+        //logic responsible to delivery the notification via whatsapp 
+    }
+}
+
+/*
+ * Since, its not mentioned in your question so i believe there is some other system/service which will call our notification service with details to send.
+ * I think the payload will be different they send to notification service i.e. Request
+ * 
+ * The calling system doesn't know about the Notificaiton class they will send the request in other format as below.
+ * Here, i am thinking that the calling system is responsbile to tell us via how many medium we need to send the notification. So i have take array & each item in array
+ * contians details required to send that type of notification
+ * 
+ * request : {
+ 		[{
+    	notification_type : sms,
+      details : {
+      	to : "xxxxx",
+        body : "...."
+      }
+    },{
+    	notification_type : email,
+      details : {
+       from_email_id : "xxx",
+       to_email_id : "yyy",
+       cc :[
+       	"aaa",
+        "fff"
+       ],
+       body : "....."
+      }
+    }]
+ }
+ * 
+ */
+
+
+/*
+ * The implementation of the Notification Service & RequestToNotificationParser need can vary like how we are accepting the request etc.
+ *  as per your understand or requirement discussed by interviewer but the idea remains the same i.e. the external
+ * system will call this service to send the notification.
+ *
+ * */
+
+class RequestToNotificationParser{
+
+    static List<Notification> parseToNotification(String jsonRequest){
+        // parse the request json and return the list of notifications...
+    }
+}
+
+public class NotificationService {
+    NotificationHandlerFactory notificationHandlerFactory;
+
+    NotificationService(NotificationHandlerFactory notificationHandlerFactory){
+        this.notificationHandlerFactory = notificationHandlerFactory;
+    }
+
+    void send(String jsonRequest){
+        //we need to parse the json into
+        List<Notificaion> notifications = RequestToNotificationParser.parseToNotification(jsonRequest);
+        for(Notification notification : notifications){
+            NotificationHandler handler = notificationHandlerFactory.getNotificationHanlder(notification.notification_type());
+            handler.sendNotification(notification);
+        }
+    }
+}
+
+class NotificationHandlerFactory{
+
+    Map<String,NotificationHandler> handlers;
+
+    NotificationHandlerFactory(){
+        handlers = new HashMap<>();
+        handlers.put(NotificationType.sms,new EmailNotificationHandler());
+        handlers.put(NotificationType.email,new SmsNotificationHandler());
+        handlers.put(NotificationType.whatsapp,new WhatsappNotificationHandler());
+
+    }
+
+    NotificationHandler getNotificationHanlder(NotificationType type){
+        return handlers.get(type.name());
+    }
+
+}
