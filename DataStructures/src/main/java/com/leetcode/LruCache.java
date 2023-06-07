@@ -3,10 +3,20 @@ package com.leetcode;
 import java.util.*;
 
 class LRUCache {
+    private class ListNode {
+        int key;
+        int value;
+
+        ListNode prev;
+        ListNode next;
+    }
+
     // Hashtable backs up the Doubly Linked List for O(1) access to cache items
     Map<Integer, ListNode> hashtable = new HashMap<Integer, ListNode>();
-    ListNode head;
-    ListNode tail;
+
+    // The head and psuedoTail are just psuedo head and psuedoTail
+    ListNode psuedoHead;
+    ListNode psuedoTail;
 
     int totalItemsInCache;
     int maxCapacity;
@@ -16,16 +26,16 @@ class LRUCache {
     totalItemsInCache = 0;
     this.maxCapacity = maxCapacity;
 
-    // Dummy head and tail nodes to avoid empty states
-    head = new ListNode();
-    tail = new ListNode();
+    // Dummy psuedoHead and psuedoTail nodes to avoid empty states
+    psuedoHead = new ListNode();
+    psuedoTail = new ListNode();
 
-    // Wire the head and tail together
-    head.next = tail;
-    tail.prev = head;
+    // Wire the psuedoHead and psuedoTail together
+    psuedoHead.next = psuedoTail;
+    psuedoTail.prev = psuedoHead;
   }
     public static void main(String[] args){
-        int capacity = 10;
+        int capacity = 4;
         LRUCache obj = new LRUCache(capacity);
         int key = 1234;
         int value = 3243223;
@@ -66,7 +76,7 @@ class LRUCache {
         removeLRUEntry();
       }
     } else {
-      // If item is found in the cache, just update it and move it to the head of the list
+      // If item is found in the cache, just update it and move it to the psuedoHead of the list
       node.value = value;
       moveToHead(node);
     }
@@ -74,14 +84,14 @@ class LRUCache {
   }
 
   private void removeLRUEntry() {
-    ListNode tail = popTail();
+    ListNode psuedoTail = popTail();
 
-    hashtable.remove(tail.key);
+    hashtable.remove(psuedoTail.key);
     --totalItemsInCache;
   }
 
   private ListNode popTail() {
-    ListNode tailItem = tail.prev;
+    ListNode tailItem = psuedoTail.prev;
     removeFromList(tailItem);
 
     return tailItem;
@@ -89,20 +99,20 @@ class LRUCache {
 
   private void addToFront(ListNode node) {
     // Wire up the new node being to be inserted
-    node.prev = head;
-    node.next = head.next;
+    node.prev = psuedoHead;
+    node.next = psuedoHead.next;
 
     /*
-      Re-wire the node after the head. Our node is still sitting "in the middle of nowhere".
+      Re-wire the node after the psuedoHead. Our node is still sitting "in the middle of nowhere".
       We got the new node pointing to the right things, but we need to fix up the original
-      head & head's next.
+      psuedoHead & psuedoHead's next.
       head <-> head.next <-> head.next.next <-> head.next.next.next <-> ...
       ^            ^
       |- new node -|
       That's where we are before these next 2 lines.
     */
-    head.next.prev = node;
-    head.next = node;
+    psuedoHead.next.prev = node;
+    psuedoHead.next = node;
   }
 
   private void removeFromList(ListNode node) {
@@ -116,13 +126,5 @@ class LRUCache {
   private void moveToHead(ListNode node) {
     removeFromList(node);
     addToFront(node);
-  }
-
-  private class ListNode {
-    int key;
-    int value;
-
-    ListNode prev;
-    ListNode next;
   }
 }

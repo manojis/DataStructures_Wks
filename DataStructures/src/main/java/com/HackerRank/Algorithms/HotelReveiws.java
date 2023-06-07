@@ -69,7 +69,7 @@ public class HotelReveiws {
 
         // Print sorted list
         for (Map.Entry<Integer, Integer> hotelEntry : sorted) {
-            System.out.print(hotelEntry.getKey() + " ");
+            System.out.print(hotelEntry.getKey() + " " + hotelEntry.getValue() + "\n");
         }
     }
 }

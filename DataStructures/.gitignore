@@ -17,6 +17,7 @@
 *.ipr
 compiler.xml
 workspace.xml
+.idea/workspace.xml
 
 ### NetBeans ###
 /nbproject/private/
