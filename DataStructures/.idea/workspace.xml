@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6d6b2cf-1839-408d-ac82-89b84b625bea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/heap/MinHeap.java" afterDir="false" />
+    <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Graph/DisjointSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/javaSixteen/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/javaSixteen/StreamToList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ctci/Q1UniqueString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/heap/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutort/PerfectArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutort/PerfectArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Mapreduce/WordCountAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Mapreduce/WordCountAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/dynamic/Climbing_Stairs_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dynamic/Climbing_Stairs_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -27,49 +53,84 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="ece-prd" />
+    <option name="namespace" value="silverarrows-prd" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="21GTf4BtMGn3cZcyyo55NcImXFI" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="1PGfvUX7xr1jBt105KBXoLFg2mW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/mohitha/Extension/Github_Manoj/Kafka-streams/kafka-streams-template&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/manmoha/github_personal/DataStructures_Wks/DataStructures&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
+  <component name="RecentsManager">
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="com.algo6515.dpv" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Q1UniqueString">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="15109cd8-776d-4de3-a648-75d50e4a248d" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.ReverseString" />
+    <configuration name="DisjointSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graph.DisjointSets" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,30 +138,133 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FrogJumpII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algo6515.HW6515.FrogJumpII" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algo6515.HW6515.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnapsackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algo6515.dpv.KnapsackTest" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algo6515.dpv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1UniqueString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ctci.Q1UniqueString" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ctci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamToList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Java_Experimentation.javaSixteen.StreamToList" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Java_Experimentation.javaSixteen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Q1UniqueString" />
+      <item itemvalue="Application.DisjointSets" />
+      <item itemvalue="Application.StreamToList" />
+      <item itemvalue="Application.KnapsackTest" />
+      <item itemvalue="Application.FrogJumpII" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.Q1UniqueString" />
+        <item itemvalue="Application.DisjointSets" />
+        <item itemvalue="Application.StreamToList" />
+        <item itemvalue="Application.FrogJumpII" />
+        <item itemvalue="Application.KnapsackTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b6d6b2cf-1839-408d-ac82-89b84b625bea" name="Default Changelist" comment="" />
-      <created>1631402533378</created>
+      <created>1565505584578</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1631402533378</updated>
-      <workItem from="1631402535106" duration="2756000" />
-      <workItem from="1637566528149" duration="110000" />
-      <workItem from="1637653858801" duration="79000" />
-      <workItem from="1638167145846" duration="713000" />
-      <workItem from="1686121356392" duration="808000" />
-      <workItem from="1688452388482" duration="146000" />
-      <workItem from="1695974619468" duration="500000" />
-      <workItem from="1695975189692" duration="3639000" />
-      <workItem from="1696307010886" duration="635000" />
-      <workItem from="1699603391243" duration="406000" />
+      <updated>1565505584578</updated>
+      <workItem from="1565505588395" duration="7579000" />
+      <workItem from="1566635417535" duration="1618000" />
+      <workItem from="1567832572128" duration="10162000" />
+      <workItem from="1568051847186" duration="5333000" />
+      <workItem from="1568077106010" duration="26308000" />
+      <workItem from="1568251405938" duration="4822000" />
+      <workItem from="1568311696616" duration="31000" />
+      <workItem from="1570250989987" duration="27000" />
+      <workItem from="1570251043091" duration="1829000" />
+      <workItem from="1571562740407" duration="1185000" />
+      <workItem from="1572934546934" duration="18000" />
+      <workItem from="1575355376330" duration="3666000" />
+      <workItem from="1578804806439" duration="3000" />
+      <workItem from="1580368172108" duration="4000" />
+      <workItem from="1580378622702" duration="11000" />
+      <workItem from="1611385009276" duration="8000" />
+      <workItem from="1611385027804" duration="917000" />
+      <workItem from="1611385972116" duration="3994000" />
+      <workItem from="1611439265761" duration="1540000" />
+      <workItem from="1611525000454" duration="2192000" />
+      <workItem from="1611563786596" duration="338000" />
+      <workItem from="1611728552244" duration="369000" />
+      <workItem from="1611900602999" duration="304000" />
+      <workItem from="1611905177104" duration="301000" />
+      <workItem from="1611905500216" duration="2459000" />
+      <workItem from="1612161174550" duration="2430000" />
+      <workItem from="1612164081557" duration="2982000" />
+      <workItem from="1613724826845" duration="706000" />
+      <workItem from="1613765720492" duration="845000" />
+      <workItem from="1625643030610" duration="1769000" />
+      <workItem from="1626245423913" duration="552000" />
+      <workItem from="1667114494514" duration="68000" />
+      <workItem from="1667114609114" duration="1986000" />
+      <workItem from="1710914115935" duration="3065000" />
+      <workItem from="1711858267656" duration="978000" />
+      <workItem from="1712426327019" duration="1998000" />
     </task>
     <servers />
   </component>
@@ -112,27 +276,118 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/linkedList/LinkedList.java</url>
+          <line>127</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Java_Experimentation/JavaEight/StreamIterate.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Java_Experimentation/threads/ThreadB.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Java_Experimentation/threads/TestShow.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/MovingAverageStream.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dynamicrecursion/ReverseString.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/binary_Search/BinarySearchTree.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/binary_Search/BinarySearchTree.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/function_duration.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/LCP.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/ReverseString.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/ReverseStringsRecursion.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/ClimbingStairs.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/algo6515/temp/Dpv_6_4.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/algo6515/HW6515/FrogJumpII.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Graph/DisjointSets.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Graph/DisjointSets.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/linkedList/LinkedList.java</url>
+          <line>74</line>
+          <properties field="current" class="com.linkedList.LinkedList.LinkedListIterator" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataStructures$SpaceReplacement.ic" NAME="SpaceReplacement Coverage Results" MODIFIED="1565564586726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ctci.*</FILTER>
+    </SUITE>
   </component>
 </project>

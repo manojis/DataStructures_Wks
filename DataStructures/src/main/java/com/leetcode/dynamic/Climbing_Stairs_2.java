@@ -12,7 +12,6 @@ public class Climbing_Stairs_2 {
     }
 
     public static int recursive(int n){
-
         return 0;
     }
 }
