@@ -8,5 +8,12 @@ public class ChartoAscii {
         for(int xe : xd){
             System.out.println(xe);
         }
+
+        String s = "words";
+        int test = 0;
+        for (int i= 0; i< s.length(); i++) {
+            test = s.charAt(i);
+            System.out.println("x is: "+ x);
+        }
     }
 }
