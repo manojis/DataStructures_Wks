@@ -13,7 +13,7 @@ public class ChartoAscii {
         int test = 0;
         for (int i= 0; i< s.length(); i++) {
             test = s.charAt(i);
-            System.out.println("x is: "+ x);
+            System.out.println("x is: "+ test);
         }
     }
 }
