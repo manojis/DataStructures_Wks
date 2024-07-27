@@ -17,6 +17,14 @@
 *.ipr
 compiler.xml
 workspace.xml
+.idea/workspace.xml
+../.DS_Store
+../.idea/
+.DS_Store
+
+### Eclipse ###
+.settings
+.vscode
 
 ### NetBeans ###
 /nbproject/private/

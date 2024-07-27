@@ -1,4 +1,4 @@
-package com.algo6515.HW6515;
+package com.leetcode.heap;
 
 public class Heap {
 
