@@ -11,13 +11,19 @@
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea/
+.idea/*
 *.iws
 *.iml
 *.ipr
 compiler.xml
 workspace.xml
 .idea/workspace.xml
+../.DS_Store
+../.idea/
+
+### Eclipse ###
+.settings
+.vscode
 
 ### NetBeans ###
 /nbproject/private/
