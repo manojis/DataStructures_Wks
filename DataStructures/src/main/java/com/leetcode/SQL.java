@@ -1,58 +1,79 @@
 package com.leetcode;
 
-import org.apache.hadoop.util.hash.Hash;
-
 import java.util.*;
 
 public class SQL {
-    private Map<String, List<List<String>>> tables;
+    // HashMap to store the database where each table is identified by its name (String)
+    // and each table stores its rows in another HashMap with row ID as the key (Integer)
+    // and the row data as a list of Strings
+    HashMap<String, HashMap<Integer, List<String>>> db;
 
+    // HashMap to keep track of the next available row ID for each table
+    HashMap<String, Integer> idSequence;
+
+    // Constructor to initialize the database with table names and their respective column counts
     public SQL(List<String> names, List<Integer> columns) {
-        // Number of tables that were created based on the size of the names list
-        tables = new HashMap<>(names.size());
+        db = new HashMap<>();
+        idSequence = new HashMap<>();
+
+        // Iterate over the list of table names
+        for (String tableName : names) {
+            // Create a new HashMap to store rows for the current table
+            HashMap<Integer, List<String>> rows = new HashMap<>();
+            db.put(tableName, rows); // Add the rows map to the main db map under the table name
+
+            // Initialize the row ID sequence for the current table starting from 0
+            idSequence.put(tableName, 0);
+        }
     }
 
+    // Method to insert a new row into a specified table
     public void insertRow(String name, List<String> row) {
-        /**
-         * The computeIfAbsent() method calculates a value for a new entry based on its key. If an entry with the
-         * specified key already exists and its value is not null then the map is not changed.
-         * The value is computed using a function, which can be defined by a lambda expression that is
-         * compatible with the apply() method of Java's Function interface.
-         */
-        tables.computeIfAbsent(name, k -> new ArrayList<>()).add(row);
+        // Get the rows map for the specified table
+        HashMap<Integer, List<String>> rows = db.get(name);
+
+        // Get the next available row ID for the table and increment it
+        int rowId = idSequence.get(name) + 1;
+        idSequence.put(name, rowId); // Update the row ID sequence
+
+        // Insert the new row into the table with the new row ID as the key
+        rows.put(rowId, row);
     }
 
+    // Method to delete a row from a specified table using the row ID
     public void deleteRow(String name, int rowId) {
-        List<List<String>> table = tables.get(name);
-        // ensure the size of rowId is less than total number of rows in the table(table.size())
-        if(rowId > 0 && table.size() > rowId && table.get(rowId-1) != null) {
-            table.remove(rowId-1);
-        }
+        // Get the rows map for the specified table
+        HashMap<Integer, List<String>> rows = db.get(name);
+
+        // Remove the row with the specified row ID
+        rows.remove(rowId);
     }
 
+    // Method to select a specific cell from a table using the table name, row ID, and column ID
     public String selectCell(String name, int rowId, int columnId) {
-        List<List<String>> table = tables.get(name);
-        String column = "";
-        if(rowId > 0 && table != null
-                && table.size() > rowId
-                && table.get(rowId-1) != null) {
-            List<String> row = table.get(rowId-1);
-            if (row != null && columnId > 0) {
-                column = row.get(columnId);
-            }
-        }
-        return column;
+        // Get the rows map for the specified table
+        HashMap<Integer, List<String>> rows = db.get(name);
+
+        // Get the row with the specified row ID
+        List<String> row = rows.get(rowId);
+
+        // Return the value from the specified column (columnId-1 because List is 0-based index)
+        return row.get(columnId - 1);
     }
 
     public static void main(String[] args) {
         List<String> names = Arrays.asList("one", "two", "three");
         List<Integer> columns = Arrays.asList(2, 3, 1);
         List<String> row = Arrays.asList("first", "second", "third");
+        List<String> row_1 = Arrays.asList("fourth", "fifth", "sixth");
 
         SQL obj = new SQL(names, columns);
-        obj.insertRow(names.get(0),row);
-        obj.deleteRow(names.get(0),2);
-        String param_3 = obj.selectCell(names.get(1),1,2);
+        obj.insertRow("two", row);
+        String param_3 = obj.selectCell("two", 1, 3);
+        System.out.println(param_3);
+        obj.insertRow("two", row_1);
+        obj.deleteRow("two",1);
+        param_3 = obj.selectCell("two",2,2);
         System.out.println(param_3);
     }
 }

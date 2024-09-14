@@ -80,7 +80,6 @@ class LRUCache {
       node.value = value;
       moveToHead(node);
     }
-
   }
 
   private void removeLRUEntry() {
