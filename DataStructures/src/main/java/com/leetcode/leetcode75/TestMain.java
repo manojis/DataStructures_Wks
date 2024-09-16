@@ -1,18 +1,22 @@
 package com.leetcode.leetcode75;
 
+import java.util.ArrayList;
+
 public class TestMain {
     public static void main(String[] args) {
-        int output = fibonacci(8);
+        String output = fibonacci(8);
         System.out.println("Hello World!"+output);
     }
-    private static int fibonacci(int n) {
-        int[] arr = new int[n];
-        arr[0] = 0;
-        arr[1] = 1;
-        for(int i=2; i<n; i++) {
-            arr[i] = arr[i-1] + arr[i-2];
-            System.out.println("val: "+arr[i]);
+    private static String fibonacci(int n) {
+        ArrayList<Integer> result = new ArrayList<>();
+        result.add(3);
+        result.add(5);
+        result.add(1);
+        result.add(10);
+        StringBuilder sb = new StringBuilder();
+        for(int i = (result.size()-1); i>=0 ; i--) {
+            sb.append(result.get(i));
         }
-        return arr[n-1];
+        return sb.toString();
     }
 }

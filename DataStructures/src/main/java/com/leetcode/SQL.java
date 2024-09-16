@@ -2,10 +2,16 @@ package com.leetcode;
 
 import java.util.*;
 
+/**
+ * https://leetcode.com/problems/design-sql/description/?envType=study-plan-v2&envId=amazon-spring-23-high-frequency
+ */
 public class SQL {
-    // HashMap to store the database where each table is identified by its name (String)
-    // and each table stores its rows in another HashMap with row ID as the key (Integer)
-    // and the row data as a list of Strings
+    /**
+     * HashMap to store the database where each table is identified by its name (String)
+     * and each table stores its rows in another HashMap with row ID as the key (Integer)
+     * and the row data as a list of Strings
+     * */
+
     HashMap<String, HashMap<Integer, List<String>>> db;
 
     // HashMap to keep track of the next available row ID for each table
