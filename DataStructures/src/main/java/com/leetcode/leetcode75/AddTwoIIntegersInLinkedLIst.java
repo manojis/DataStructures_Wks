@@ -2,59 +2,50 @@ package com.leetcode.leetcode75;
 
 public class AddTwoIIntegersInLinkedLIst {
     public static void main(String args[]) {
-        ListNode l1 = new ListNode(2);
-        l1.next = new ListNode(4);
-        l1.next.next = new ListNode(3);
+        ListNode l1 = new ListNode(9);
+        l1.next = new ListNode(9);
+        l1.next.next = new ListNode(9);
+        /*l1.next = new ListNode(9);
+        l1.next.next = new ListNode(9);
+        l1.next.next.next = new ListNode(9);
+        l1.next.next.next.next = new ListNode(9);
+        l1.next.next.next.next.next = new ListNode(9);
+        l1.next.next.next.next.next.next = new ListNode(9);*/
 
         ListNode l2 = new ListNode(5);
         l2.next = new ListNode(6);
         l2.next.next = new ListNode(4);
+        /*l2.next.next.next = new ListNode(9);*/
+
         ListNode result = addTwoNumbers(l1,l2);
         System.out.println(result);
     }
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode result = new ListNode();
-        ListNode prev1 = null;
-        ListNode prev2 = null;
-        ListNode nextNode;
-        int carry = 0;
+        // Create a dummy node to simplify result list creation
+        ListNode dummy = new ListNode(0);
+        ListNode current = dummy;  // Pointer to the result list
+        int carry = 0;  // Carry to handle digits > 9
 
-        while(l1 != null){
-            nextNode = l1.next;
-            l1.next = prev1;
-            prev1 = l1;
-            l1 = nextNode;
-        }
-        nextNode = null;
+        // Loop through both lists until all digits and carry are processed
+        while (l1 != null || l2 != null) {
+            int x = (l1 != null) ? l1.val : 0;  // Get the value from l1 or 0 if l1 is done
+            int y = (l2 != null) ? l2.val : 0;  // Get the value from l2 or 0 if l2 is done
+            int sum = carry + x + y;  // Calculate sum including carry
 
-        while(l2 != null){
-            nextNode = l2.next;
-            l2.next = prev2;
-            prev2 = l2;
-            l2 = nextNode;
+            carry = sum / 10;  // Update carry (1 if sum >= 10)
+            current.next = new ListNode(sum % 10);  // Create a new node for the current digit
+
+            current = current.next;  // Move to the next position in the result list
+            if (l1 != null) l1 = l1.next;  // Move to the next node in l1, if available
+            if (l2 != null) l2 = l2.next;  // Move to the next node in l2, if available
         }
 
-        while(prev1!= null || prev2!=null || carry > 0) {
-            int val = prev1.val + prev2.val+ carry;
-
-            if (val >= 10) {
-                carry = 1;
-                val = val-10;
-            } else {
-                carry = 0;
-            }
-
-            ListNode temp = new ListNode(val);
-            // Need to understand how to move here
-            result.next = temp;
-            result = temp;
-            result.next = null;
-
-            prev1 = prev1.next;
-            prev2 = prev2.next;
+        // If there's any carry left at the end, create a new node for it
+        if (carry > 0) {
+            current.next = new ListNode(carry);
         }
-        return result;
+        return dummy.next;  // Return the resulting list (ignoring the dummy head)
     }
 }
 
