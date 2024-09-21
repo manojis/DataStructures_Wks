@@ -3,6 +3,11 @@ package com.leetcode;
 import java.util.*;
 
 class LRUCache {
+    /** To remove the least used one, a queue has to be created. Newly added or accessed one goes to the front of the queue and least used to back of the queue
+     * Need a doubly linked list for this
+     * add the key value pair to both doubly linked list and the hashmap
+     * Need to create a node with next and prev address
+     **/
     private class ListNode {
         int key;
         int value;
@@ -20,13 +25,21 @@ class LRUCache {
 
     int totalItemsInCache;
     int maxCapacity;
-    
+
+    /**
+     * creating the constructor to set the capacity
+     * while creating the LRUCache instance we need to set capacity and also create a head and tail and wire them together
+     **/
     public LRUCache(int maxCapacity) {
     // Cache starts empty and capacity is set by client
     totalItemsInCache = 0;
     this.maxCapacity = maxCapacity;
 
-    // Dummy psuedoHead and psuedoTail nodes to avoid empty states
+    /** Dummy psuedoHead and psuedoTail nodes to avoid empty states
+     * We will have our head and tail attributes both set to dummy nodes.
+     * The "real" head will be head.next and the "real" tail will be tail.prev.
+     * These dummy nodes sit just "outside" of our linked list. What is the purpose? We never want head or tail to be null.
+     */
     psuedoHead = new ListNode();
     psuedoTail = new ListNode();
 
@@ -34,15 +47,16 @@ class LRUCache {
     psuedoHead.next = psuedoTail;
     psuedoTail.prev = psuedoHead;
   }
-    public static void main(String[] args){
-        int capacity = 4;
-        LRUCache obj = new LRUCache(capacity);
-        int key = 1234;
-        int value = 3243223;
-        obj.put(key,value);
-        int param_1 = obj.get(key);
-        System.out.println(param_1);
-    }
+
+  public static void main(String[] args){
+    int capacity = 4;
+    LRUCache obj = new LRUCache(capacity);
+    int key = 1234;
+    int value = 3243223;
+    obj.put(key,value);
+    int param_1 = obj.get(key);
+    System.out.println(param_1);
+}
 
   public int get(int key) {
     ListNode node = hashtable.get(key);
@@ -57,12 +71,27 @@ class LRUCache {
     return node.value;
   }
 
+    /** when a key needs to be updated, it could be anywhere in the doubly linked list,
+     * so we need to get the position of the node using the key from the hashmap and update it bring it to the front of the queue.
+     * @param key
+     * @param value
+     */
+
   public void put(int key, int value) {
     ListNode node = hashtable.get(key);
 
     if (node == null) {
       // Item not found, create a new entry
       ListNode newNode = new ListNode();
+
+        /** Instead of this we can call the constructor and pass the value.
+         *  -> ListNode node = new ListNode(key, value);
+         *  and in the constructor
+         *  -> public ListNode(int key, int value) {
+         *      this.key = key;
+         *      this.value = value;
+         *    }
+         */
       newNode.key = key;
       newNode.value = value;
 
@@ -80,7 +109,6 @@ class LRUCache {
       node.value = value;
       moveToHead(node);
     }
-
   }
 
   private void removeLRUEntry() {
