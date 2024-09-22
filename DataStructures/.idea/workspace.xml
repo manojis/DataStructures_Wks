@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/RemoveNthNodeFromEnd_19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ReorderLinkedList_143.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/AddTwoIIntegersInLinkedLIst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/AddTwoIIntegersInLinkedLIst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ReverseLinkedList_206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ValidAnagram_242.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +56,16 @@
   "keyToString": {
     "Application.Q1UniqueString.executor": "Debug",
     "Application.RemoveNthNodeFromEnd_19.executor": "Debug",
+    "Application.ReverseLinkedList_206.executor": "Run",
     "Application.ValidAnagram.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/media/mohitha/Extension/Github/Logging-System-API",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -71,7 +76,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveNthNodeFromEnd_19">
+  <component name="RunManager" selected="Application.ReverseLinkedList_206">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -139,6 +144,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseLinkedList_206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.ReverseLinkedList_206" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.leetcode75.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.ReverseString" />
       <module name="DataStructures" />
@@ -152,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.ValidAnagram" />
+    <configuration name="ValidAnagram_242" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.ValidAnagram_242" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -166,15 +184,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ReverseLinkedList_206" />
       <item itemvalue="Application.RemoveNthNodeFromEnd_19" />
-      <item itemvalue="Application.ValidAnagram" />
+      <item itemvalue="Application.ValidAnagram_242" />
       <item itemvalue="Application.ChartoAscii" />
       <item itemvalue="Application.ReverseString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedList_206" />
         <item itemvalue="Application.RemoveNthNodeFromEnd_19" />
-        <item itemvalue="Application.ValidAnagram" />
+        <item itemvalue="Application.ValidAnagram_242" />
         <item itemvalue="Application.ChartoAscii" />
         <item itemvalue="Application.ReverseString" />
       </list>
@@ -208,7 +228,8 @@
       <workItem from="1700381839032" duration="1589000" />
       <workItem from="1711601013232" duration="1305000" />
       <workItem from="1715810309089" duration="16000" />
-      <workItem from="1724738089845" duration="6098000" />
+      <workItem from="1724738089845" duration="6385000" />
+      <workItem from="1727036685527" duration="1065000" />
     </task>
     <servers />
   </component>
@@ -254,19 +275,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ValidAnagram.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ValidAnagram_242.java</url>
           <line>28</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ValidAnagram.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ValidAnagram_242.java</url>
           <line>35</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/RemoveNthNodeFromEnd_19.java</url>
-          <line>14</line>
+          <line>17</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/RemoveNthNodeFromEnd_19.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
