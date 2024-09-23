@@ -1,6 +1,6 @@
 package com.leetcode.leetcode75;
 
-public class LInkedListCycle {
+public class LinkedListCycle {
   public static void main(String [] args) {
 
   }
