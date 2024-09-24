@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ValidParanthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,33 +50,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MiddleLinkedList_876.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Q1UniqueString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RemoveNthNodeFromEnd_19.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReorderLinkedList_143.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReverseLinkedList_206.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidAnagram.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/mohitha/Extension/Github/Logging-System-API&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MiddleLinkedList_876.executor": "Debug",
+    "Application.Q1UniqueString.executor": "Debug",
+    "Application.RemoveNthNodeFromEnd_19.executor": "Debug",
+    "Application.ReorderLinkedList_143.executor": "Debug",
+    "Application.ReverseLinkedList_206.executor": "Run",
+    "Application.ValidAnagram.executor": "Debug",
+    "Application.ValidParanthesis.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/media/mohitha/Extension/Github/Logging-System-API",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.ReorderLinkedList_143">
+}]]></component>
+  <component name="RunManager" selected="Application.ValidParanthesis">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -169,8 +171,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagram_242" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.ValidAnagram_242" />
+    <configuration name="ValidParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.ValidParanthesis" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -183,19 +185,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ValidParanthesis" />
       <item itemvalue="Application.ReorderLinkedList_143" />
       <item itemvalue="Application.MiddleLinkedList_876" />
       <item itemvalue="Application.ReverseLinkedList_206" />
       <item itemvalue="Application.RemoveNthNodeFromEnd_19" />
-      <item itemvalue="Application.ValidAnagram_242" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParanthesis" />
         <item itemvalue="Application.ReorderLinkedList_143" />
         <item itemvalue="Application.MiddleLinkedList_876" />
         <item itemvalue="Application.ReverseLinkedList_206" />
         <item itemvalue="Application.RemoveNthNodeFromEnd_19" />
-        <item itemvalue="Application.ValidAnagram_242" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +233,8 @@
       <workItem from="1727036685527" duration="2230000" />
       <workItem from="1727050048885" duration="1330000" />
       <workItem from="1727069059484" duration="170000" />
+      <workItem from="1727069395892" duration="1286000" />
+      <workItem from="1727157645442" duration="443000" />
     </task>
     <servers />
   </component>
@@ -299,6 +303,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/MiddleLinkedList_876.java</url>
           <line>27</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ValidParanthesis.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
