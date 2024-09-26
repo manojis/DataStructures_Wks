@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SimplifyPath_71.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/RemoveAdjacentDuplicates_1047.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/RemoveAdjacentDuplicates_1047.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,7 @@
     "Application.RemoveNthNodeFromEnd_19.executor": "Debug",
     "Application.ReorderLinkedList_143.executor": "Debug",
     "Application.ReverseLinkedList_206.executor": "Run",
+    "Application.SimplifyPath_71.executor": "Debug",
     "Application.ValidAnagram.executor": "Debug",
     "Application.ValidParanthesis.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -78,7 +79,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveAdjacentDuplicates_1047">
+  <component name="RunManager" selected="Application.SimplifyPath_71">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -159,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList_206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.ReverseLinkedList_206" />
+    <configuration name="SimplifyPath_71" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.SimplifyPath_71" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -186,19 +187,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SimplifyPath_71" />
       <item itemvalue="Application.MiddleLinkedList_876" />
       <item itemvalue="Application.RemoveAdjacentDuplicates_1047" />
       <item itemvalue="Application.ReorderLinkedList_143" />
-      <item itemvalue="Application.ReverseLinkedList_206" />
       <item itemvalue="Application.ValidParanthesis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimplifyPath_71" />
         <item itemvalue="Application.RemoveAdjacentDuplicates_1047" />
         <item itemvalue="Application.ValidParanthesis" />
         <item itemvalue="Application.ReorderLinkedList_143" />
         <item itemvalue="Application.MiddleLinkedList_876" />
-        <item itemvalue="Application.ReverseLinkedList_206" />
       </list>
     </recent_temporary>
   </component>
@@ -307,9 +308,14 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/RemoveAdjacentDuplicates_1047.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SimplifyPath_71.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SimplifyPath_71.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
