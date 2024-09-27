@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SimplifyPath_71.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/MovingAverageDataStream_346.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "manojis"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:manojis/DataStructures_Wks",
+    "accountId": "ff146338-c2c3-4bc9-8ccc-77b42c91850a"
+  }
+}]]></component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
@@ -53,12 +65,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.MiddleLinkedList_876.executor": "Debug",
+    "Application.MovingAverageDataStream_346.executor": "Run",
     "Application.Q1UniqueString.executor": "Debug",
     "Application.RemoveAdjacentDuplicates_1047.executor": "Debug",
     "Application.RemoveNthNodeFromEnd_19.executor": "Debug",
     "Application.ReorderLinkedList_143.executor": "Debug",
     "Application.ReverseLinkedList_206.executor": "Run",
-    "Application.SimplifyPath_71.executor": "Debug",
+    "Application.SimplifyPath_71.executor": "Run",
     "Application.ValidAnagram.executor": "Debug",
     "Application.ValidParanthesis.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -79,7 +92,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SimplifyPath_71">
+  <component name="RunManager" selected="Application.MovingAverageDataStream_346">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -121,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleLinkedList_876" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.MiddleLinkedList_876" />
+    <configuration name="MovingAverageDataStream_346" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.MovingAverageDataStream_346" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -187,26 +200,27 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MovingAverageDataStream_346" />
       <item itemvalue="Application.SimplifyPath_71" />
-      <item itemvalue="Application.MiddleLinkedList_876" />
       <item itemvalue="Application.RemoveAdjacentDuplicates_1047" />
       <item itemvalue="Application.ReorderLinkedList_143" />
       <item itemvalue="Application.ValidParanthesis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovingAverageDataStream_346" />
         <item itemvalue="Application.SimplifyPath_71" />
         <item itemvalue="Application.RemoveAdjacentDuplicates_1047" />
         <item itemvalue="Application.ValidParanthesis" />
         <item itemvalue="Application.ReorderLinkedList_143" />
-        <item itemvalue="Application.MiddleLinkedList_876" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -238,6 +252,7 @@
       <workItem from="1727069395892" duration="1286000" />
       <workItem from="1727157645442" duration="662000" />
       <workItem from="1727162921041" duration="2001000" />
+      <workItem from="1727473204937" duration="2650000" />
     </task>
     <servers />
   </component>
@@ -308,14 +323,19 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SimplifyPath_71.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="31" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/MovingAverageDataStream_346.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SimplifyPath_71.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="33" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/MovingAverageDataStream_346.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/MovingAverageDataStream_346.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
