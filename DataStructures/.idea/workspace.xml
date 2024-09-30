@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/KRadiusSubarrayAverage_2090.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SubarraySumEqualsK_560.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/LongestMountainArray_845.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.KRadiusSubarrayAverage_2090.executor": "Debug",
+    "Application.LongestMountainArray_845.executor": "Run",
     "Application.MiddleLinkedList_876.executor": "Debug",
     "Application.MovingAverageDataStream_346.executor": "Run",
     "Application.Q1UniqueString.executor": "Debug",
@@ -96,7 +95,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.KRadiusSubarrayAverage_2090">
+  <component name="RunManager" selected="Application.LongestMountainArray_845">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -151,8 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovingAverageDataStream_346" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.MovingAverageDataStream_346" />
+    <configuration name="LongestMountainArray_845" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.LongestMountainArray_845" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAdjacentDuplicates_1047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.RemoveAdjacentDuplicates_1047" />
+    <configuration name="MovingAverageDataStream_346" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.MovingAverageDataStream_346" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -205,18 +204,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.KRadiusSubarrayAverage_2090" />
+      <item itemvalue="Application.LongestMountainArray_845" />
       <item itemvalue="Application.SubarraySumEqualsK_560" />
       <item itemvalue="Application.MovingAverageDataStream_346" />
       <item itemvalue="Application.SimplifyPath_71" />
-      <item itemvalue="Application.RemoveAdjacentDuplicates_1047" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestMountainArray_845" />
         <item itemvalue="Application.KRadiusSubarrayAverage_2090" />
         <item itemvalue="Application.SubarraySumEqualsK_560" />
         <item itemvalue="Application.MovingAverageDataStream_346" />
         <item itemvalue="Application.SimplifyPath_71" />
-        <item itemvalue="Application.RemoveAdjacentDuplicates_1047" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +262,7 @@
       <workItem from="1727571711268" duration="41000" />
       <workItem from="1727571759121" duration="606000" />
       <workItem from="1727607251416" duration="597000" />
-      <workItem from="1727650603871" duration="2619000" />
+      <workItem from="1727650603871" duration="9064000" />
     </task>
     <servers />
   </component>
@@ -355,33 +354,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/KRadiusSubarrayAverage_2090.java</url>
-          <line>63</line>
+          <line>60</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/KRadiusSubarrayAverage_2090.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/KRadiusSubarrayAverage_2090.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/KRadiusSubarrayAverage_2090.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/KRadiusSubarrayAverage_2090.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/KRadiusSubarrayAverage_2090.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="22" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/LongestMountainArray_845.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
