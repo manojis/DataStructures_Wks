@@ -4,7 +4,6 @@ import java.util.*;
 
 /**
  * @author Manoj.Mohanan Nair
- * @Date 8/14/17
  * Given n processes, each process has a unique PID (process id) and its PPID (parent process id).
  * Each process only has one parent process, but may have one or more children processes.
  * This is just like a tree structure. Only one process has PPID that is 0, which means this process has no parent process.
