@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/LongestMountainArray_845.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/ArrayDequeUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/GatewayRequestHackerRank_Expedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/SlidingWindowMaximum_239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SlidingWindowMaximum_239.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,40 +65,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.KRadiusSubarrayAverage_2090.executor": "Debug",
-    "Application.LongestMountainArray_845.executor": "Run",
-    "Application.MiddleLinkedList_876.executor": "Debug",
-    "Application.MovingAverageDataStream_346.executor": "Run",
-    "Application.Q1UniqueString.executor": "Debug",
-    "Application.RemoveAdjacentDuplicates_1047.executor": "Debug",
-    "Application.RemoveNthNodeFromEnd_19.executor": "Debug",
-    "Application.ReorderLinkedList_143.executor": "Debug",
-    "Application.ReverseLinkedList_206.executor": "Run",
-    "Application.SimplifyPath_71.executor": "Run",
-    "Application.SubarraySumEqualsK_560.executor": "Debug",
-    "Application.ValidAnagram.executor": "Debug",
-    "Application.ValidParanthesis.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Github_Manoj/DataStructures_Wks/DataStructures",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.KRadiusSubarrayAverage_2090.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LongestMountainArray_845.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiddleLinkedList_876.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MovingAverageDataStream_346.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q1UniqueString.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RemoveAdjacentDuplicates_1047.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RemoveNthNodeFromEnd_19.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReorderLinkedList_143.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReverseLinkedList_206.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimplifyPath_71.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubarraySumEqualsK_560.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ValidAnagram.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ValidParanthesis.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Github_Manoj/DataStructures_Wks/DataStructures&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.LongestMountainArray_845">
+}</component>
+  <component name="RunManager" selected="Application.SlidingWindowMaximum_239">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -137,6 +143,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayRequestHackerRank_Expedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.GatewayRequestHackerRank_Expedia" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KRadiusSubarrayAverage_2090" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.KRadiusSubarrayAverage_2090" />
       <module name="DataStructures" />
@@ -163,25 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovingAverageDataStream_346" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.MovingAverageDataStream_346" />
+    <configuration name="SlidingWindowMaximum_239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.SlidingWindowMaximum_239" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.leetcode75.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimplifyPath_71" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.SimplifyPath_71" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.leetcode75.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,19 +209,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SlidingWindowMaximum_239" />
+      <item itemvalue="Application.GatewayRequestHackerRank_Expedia" />
       <item itemvalue="Application.KRadiusSubarrayAverage_2090" />
       <item itemvalue="Application.LongestMountainArray_845" />
       <item itemvalue="Application.SubarraySumEqualsK_560" />
-      <item itemvalue="Application.MovingAverageDataStream_346" />
-      <item itemvalue="Application.SimplifyPath_71" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SlidingWindowMaximum_239" />
+        <item itemvalue="Application.GatewayRequestHackerRank_Expedia" />
         <item itemvalue="Application.LongestMountainArray_845" />
         <item itemvalue="Application.KRadiusSubarrayAverage_2090" />
         <item itemvalue="Application.SubarraySumEqualsK_560" />
-        <item itemvalue="Application.MovingAverageDataStream_346" />
-        <item itemvalue="Application.SimplifyPath_71" />
       </list>
     </recent_temporary>
   </component>
@@ -263,6 +269,12 @@
       <workItem from="1727571759121" duration="606000" />
       <workItem from="1727607251416" duration="597000" />
       <workItem from="1727650603871" duration="9064000" />
+      <workItem from="1727756323194" duration="638000" />
+      <workItem from="1727761501222" duration="675000" />
+      <workItem from="1728028226185" duration="3772000" />
+      <workItem from="1728153815720" duration="2331000" />
+      <workItem from="1728157636145" duration="1819000" />
+      <workItem from="1728160510669" duration="5240000" />
     </task>
     <servers />
   </component>
