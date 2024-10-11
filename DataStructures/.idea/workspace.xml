@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/minimizeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/GoodNodesBinaryTree_1448.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/MaxDepthBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/MinPartitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/ConnectedGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SimpleCipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,15 +68,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConnectedGroups.executor": "Run",
+    "Application.GoodNodesBinaryTree_1448.executor": "Debug",
     "Application.KRadiusSubarrayAverage_2090.executor": "Debug",
     "Application.LongestMountainArray_845.executor": "Run",
+    "Application.MaxDepthBinaryTree (1).executor": "Run",
+    "Application.MaxDepthBinaryTree.executor": "Run",
     "Application.MiddleLinkedList_876.executor": "Debug",
+    "Application.MinPartitions.executor": "Run",
     "Application.MovingAverageDataStream_346.executor": "Run",
     "Application.Q1UniqueString.executor": "Debug",
     "Application.RemoveAdjacentDuplicates_1047.executor": "Debug",
     "Application.RemoveNthNodeFromEnd_19.executor": "Debug",
     "Application.ReorderLinkedList_143.executor": "Debug",
     "Application.ReverseLinkedList_206.executor": "Run",
+    "Application.SimpleCipher.executor": "Run",
     "Application.SimplifyPath_71.executor": "Run",
     "Application.SubarraySumEqualsK_560.executor": "Debug",
     "Application.ValidAnagram.executor": "Debug",
@@ -95,7 +105,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestMountainArray_845">
+  <component name="RunManager" selected="Application.GoodNodesBinaryTree_1448">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -137,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KRadiusSubarrayAverage_2090" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.KRadiusSubarrayAverage_2090" />
+    <configuration name="ConnectedGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.ConnectedGroups" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -150,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestMountainArray_845" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.LongestMountainArray_845" />
+    <configuration name="GoodNodesBinaryTree_1448" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.GoodNodesBinaryTree_1448" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.leetcode75.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovingAverageDataStream_346" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.MovingAverageDataStream_346" />
+    <configuration name="MaxDepthBinaryTree (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.MaxDepthBinaryTree" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.leetcode75.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplifyPath_71" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.SimplifyPath_71" />
+    <configuration name="MaxDepthBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.MaxDepthBinaryTree" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.leetcode75.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,8 +199,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraySumEqualsK_560" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.SubarraySumEqualsK_560" />
+    <configuration name="SimpleCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.SimpleCipher" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -203,19 +213,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KRadiusSubarrayAverage_2090" />
-      <item itemvalue="Application.LongestMountainArray_845" />
-      <item itemvalue="Application.SubarraySumEqualsK_560" />
-      <item itemvalue="Application.MovingAverageDataStream_346" />
-      <item itemvalue="Application.SimplifyPath_71" />
+      <item itemvalue="Application.GoodNodesBinaryTree_1448" />
+      <item itemvalue="Application.MaxDepthBinaryTree" />
+      <item itemvalue="Application.MaxDepthBinaryTree (1)" />
+      <item itemvalue="Application.ConnectedGroups" />
+      <item itemvalue="Application.SimpleCipher" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestMountainArray_845" />
-        <item itemvalue="Application.KRadiusSubarrayAverage_2090" />
-        <item itemvalue="Application.SubarraySumEqualsK_560" />
-        <item itemvalue="Application.MovingAverageDataStream_346" />
-        <item itemvalue="Application.SimplifyPath_71" />
+        <item itemvalue="Application.GoodNodesBinaryTree_1448" />
+        <item itemvalue="Application.MaxDepthBinaryTree (1)" />
+        <item itemvalue="Application.MaxDepthBinaryTree" />
+        <item itemvalue="Application.ConnectedGroups" />
+        <item itemvalue="Application.SimpleCipher" />
       </list>
     </recent_temporary>
   </component>
@@ -263,6 +273,8 @@
       <workItem from="1727571759121" duration="606000" />
       <workItem from="1727607251416" duration="597000" />
       <workItem from="1727650603871" duration="11930000" />
+      <workItem from="1728367178634" duration="6637000" />
+      <workItem from="1728542110506" duration="20866000" />
     </task>
     <servers />
   </component>
@@ -361,6 +373,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/LongestMountainArray_845.java</url>
           <line>29</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/MaxDepthBinaryTree.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/MaxDepthBinaryTree.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/GoodNodesBinaryTree_1448.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
