@@ -1,5 +1,7 @@
 package com.leetcode;
 
+import org.apache.commons.math3.util.Pair;
+
 import java.util.Stack;
 
 public class GoodNodesBinaryTree_1448 {
@@ -18,29 +20,35 @@ public class GoodNodesBinaryTree_1448 {
 
     // [2,null,4,10,8,null,null,4]
     public static int goodNodes(TreeNode root) {
-        Stack<TreeNode> stack = new Stack();
-        stack.push(root);
-        int currentVal = Integer.MIN_VALUE;
+        Stack<PairNode> stack = new Stack();
+        stack.push(new PairNode(root, root.val));
         int count=0;
 
         while(!stack.isEmpty()) {
-            root = stack.pop();
             // check the value of the left and right nodes of the root node and if they are greater update the count else continue
-            if (root.val <= root.left.val) {
-                count++;
-            }
-            if (root.val <= root.right.val) {
+            PairNode curr = stack.pop();
+            if (curr.maxSoFar <= curr.root.val) {
                 count++;
             }
 
-            if (root.right != null) {
-                stack.push(root.right);
+            if (curr.root.left != null) {
+                stack.push(new PairNode(curr.root.left, Math.max(curr.root.val, curr.maxSoFar)));
             }
 
-            if(root.left!= null) {
-                stack.push(root.left);
+            if (curr.root.right != null) {
+                stack.push(new PairNode(curr.root.right, Math.max(curr.root.val, curr.maxSoFar)));
             }
         }
         return count;
+    }
+}
+
+class PairNode {
+    int maxSoFar;
+    TreeNode root;
+
+    PairNode(TreeNode node, int maxSoFar) {
+        this.maxSoFar = maxSoFar;
+        this.root = node;
     }
 }
