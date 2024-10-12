@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/InsertNodeAtPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/IsSameBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/GoodNodesBinaryTree_1448.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/GoodNodesBinaryTree_1448.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GoodNodesBinaryTree_1448">
+  <component name="RunManager" selected="Application.IsSameBinaryTree">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -169,6 +170,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IsSameBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.IsSameBinaryTree" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxDepthBinaryTree (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.MaxDepthBinaryTree" />
       <module name="DataStructures" />
@@ -195,33 +209,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.SimpleCipher" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.leetcode75.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.IsSameBinaryTree" />
       <item itemvalue="Application.GoodNodesBinaryTree_1448" />
       <item itemvalue="Application.MaxDepthBinaryTree" />
       <item itemvalue="Application.MaxDepthBinaryTree (1)" />
       <item itemvalue="Application.ConnectedGroups" />
-      <item itemvalue="Application.SimpleCipher" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsSameBinaryTree" />
         <item itemvalue="Application.GoodNodesBinaryTree_1448" />
         <item itemvalue="Application.MaxDepthBinaryTree (1)" />
         <item itemvalue="Application.MaxDepthBinaryTree" />
         <item itemvalue="Application.ConnectedGroups" />
-        <item itemvalue="Application.SimpleCipher" />
       </list>
     </recent_temporary>
   </component>
@@ -379,11 +380,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/MaxDepthBinaryTree.java</url>
           <line>48</line>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/GoodNodesBinaryTree_1448.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
