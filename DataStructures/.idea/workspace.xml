@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/BankingSystemImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/LeastCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/InsertNodeAtPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/IsSameBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,47 +63,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ConnectedGroups.executor": "Run",
-    "Application.GoodNodesBinaryTree_1448.executor": "Debug",
-    "Application.KRadiusSubarrayAverage_2090.executor": "Debug",
-    "Application.LeastCommonAncestor.executor": "Run",
-    "Application.LongestMountainArray_845.executor": "Run",
-    "Application.MaxDepthBinaryTree (1).executor": "Run",
-    "Application.MaxDepthBinaryTree.executor": "Run",
-    "Application.MiddleLinkedList_876.executor": "Debug",
-    "Application.MinPartitions.executor": "Run",
-    "Application.MovingAverageDataStream_346.executor": "Run",
-    "Application.Q1UniqueString.executor": "Debug",
-    "Application.RemoveAdjacentDuplicates_1047.executor": "Debug",
-    "Application.RemoveNthNodeFromEnd_19.executor": "Debug",
-    "Application.ReorderLinkedList_143.executor": "Debug",
-    "Application.ReverseLinkedList_206.executor": "Run",
-    "Application.SimpleCipher.executor": "Run",
-    "Application.SimplifyPath_71.executor": "Run",
-    "Application.SubarraySumEqualsK_560.executor": "Debug",
-    "Application.ValidAnagram.executor": "Debug",
-    "Application.ValidParanthesis.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Github_Manoj/DataStructures_Wks/DataStructures",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ConnectedGroups.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GoodNodesBinaryTree_1448.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.KRadiusSubarrayAverage_2090.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LongestMountainArray_845.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxDepthBinaryTree (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxDepthBinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiddleLinkedList_876.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MinPartitions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MovingAverageDataStream_346.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q1UniqueString.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RemoveAdjacentDuplicates_1047.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RemoveNthNodeFromEnd_19.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReorderLinkedList_143.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReverseLinkedList_206.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleCipher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimplifyPath_71.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubarraySumEqualsK_560.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ValidAnagram.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ValidParanthesis.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Github_Manoj/DataStructures_Wks/DataStructures&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.LeastCommonAncestor">
+}</component>
+  <component name="RunManager" selected="Application.IsSameBinaryTree">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -171,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeastCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.LeastCommonAncestor" />
+    <configuration name="IsSameBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.IsSameBinaryTree" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -211,15 +210,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.IsSameBinaryTree" />
       <item itemvalue="Application.GoodNodesBinaryTree_1448" />
-      <item itemvalue="Application.LeastCommonAncestor" />
       <item itemvalue="Application.MaxDepthBinaryTree" />
       <item itemvalue="Application.MaxDepthBinaryTree (1)" />
       <item itemvalue="Application.ConnectedGroups" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeastCommonAncestor" />
+        <item itemvalue="Application.IsSameBinaryTree" />
         <item itemvalue="Application.GoodNodesBinaryTree_1448" />
         <item itemvalue="Application.MaxDepthBinaryTree (1)" />
         <item itemvalue="Application.MaxDepthBinaryTree" />
@@ -272,7 +271,7 @@
       <workItem from="1727607251416" duration="597000" />
       <workItem from="1727650603871" duration="11930000" />
       <workItem from="1728367178634" duration="6637000" />
-      <workItem from="1728542110506" duration="28451000" />
+      <workItem from="1728542110506" duration="20866000" />
     </task>
     <servers />
   </component>
@@ -381,21 +380,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/MaxDepthBinaryTree.java</url>
           <line>48</line>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/GoodNodesBinaryTree_1448.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/LeastCommonAncestor.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/LeastCommonAncestor.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
