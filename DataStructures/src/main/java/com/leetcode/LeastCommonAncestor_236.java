@@ -1,11 +1,6 @@
 package com.leetcode;
 
-import com.sun.source.tree.Tree;
-
-import java.util.LinkedList;
-import java.util.Queue;
-
-public class LeastCommonAncestor {
+public class LeastCommonAncestor_236 {
     public static void main(String [] args) {
         TreeNode root = new TreeNode(3);
         root.left = new TreeNode(5);
@@ -19,7 +14,7 @@ public class LeastCommonAncestor {
         root.left.right.left = new TreeNode(7);
         root.left.right.right = new TreeNode(4);
 
-        LeastCommonAncestor ls = new LeastCommonAncestor();
+        LeastCommonAncestor_236 ls = new LeastCommonAncestor_236();
         TreeNode result = ls.lowestCommonAncestor(root, new TreeNode(2), new TreeNode(6));
         System.out.println("Least common ancestor: " +result.val);
     }

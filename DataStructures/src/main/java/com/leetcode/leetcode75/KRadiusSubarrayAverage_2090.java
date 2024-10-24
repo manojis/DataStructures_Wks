@@ -1,9 +1,6 @@
 package com.leetcode.leetcode75;
 
-import org.checkerframework.checker.units.qual.K;
-
 import java.io.*;
-import java.util.ArrayList;
 
 public class KRadiusSubarrayAverage_2090 {
     public static void main(String[] args) throws FileNotFoundException {

@@ -1,7 +1,5 @@
 package com.leetcode;
 
-import com.google.common.collect.ForwardingDeque;
-
 import java.util.ArrayDeque;
 import java.util.Deque;
 

@@ -20,8 +20,8 @@ public class BinaryTreeRightSideView_199 {
         root.left.right.right = new TreeNode(4);
 
         BinaryTreeRightSideView_199 ls = new BinaryTreeRightSideView_199();
-        TreeNode result = ls.rightSideView(roo);
-        System.out.println("Least common ancestor: " +result.val);
+        List<Integer> result = ls.rightSideView(root);
+        System.out.println("Binary view: " +result);
     }
 
     public List<Integer> rightSideView(TreeNode root) {

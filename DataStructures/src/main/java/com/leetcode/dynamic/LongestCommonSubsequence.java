@@ -16,6 +16,7 @@ public class LongestCommonSubsequence {
             return 0;
         }
 
+        // we do this because we verify with i-1 or j-1 later
         for (int i = 0; i< cText1.length; i++) {
             output[i][0] = 0;
         }

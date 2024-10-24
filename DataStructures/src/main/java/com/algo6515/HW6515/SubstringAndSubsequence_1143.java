@@ -11,7 +11,7 @@ package com.algo6515.HW6515;
  * then the answer is 4 (since, b; d; b; a is a substring of X and it is also a subsequence of Y). You do
  * not need to output the actual substring, just its length.
  */
-public class SubstringAndSubsequence {
+public class SubstringAndSubsequence_1143 {
 
     static final int MAX = 1000;
 

@@ -1,7 +1,5 @@
 package com.leetcode;
 
-import org.apache.commons.math3.util.Pair;
-
 import java.util.Stack;
 
 public class GoodNodesBinaryTree_1448 {

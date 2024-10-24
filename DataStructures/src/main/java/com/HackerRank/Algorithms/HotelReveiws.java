@@ -10,10 +10,7 @@ import java.util.*;
 public class HotelReveiws {
 
     public static void main(String[] args) throws FileNotFoundException {
-
-        System.out.println(System.getProperty("user.home"));
-
-        System.setIn(new FileInputStream(System.getProperty("user.home") + "/" + "HotelReviews.txt"));
+        System.setIn(new FileInputStream("/media/manoj/Extension/Github_Manoj/DataStructures_Wks/DataStructures" + "/" + "HotelReviews.txt"));
         Scanner in = new Scanner(System.in);
 
         // Read dictionary

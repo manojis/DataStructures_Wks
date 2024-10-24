@@ -32,6 +32,7 @@ public class MyClass implements alpha, beta {
         });
         System.out.println("list sort" + list);
         Collections.sort(arr);
+        System.out.println("list sorts" + list);
     }
 
     public static void main(String args[]) {
