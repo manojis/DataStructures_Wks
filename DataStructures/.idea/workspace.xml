@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/src/main/java/com/Graph/TopologicalSort.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/KMostFrequentStrings.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/JavaEight/CustomSortHashMap.java" afterDir="false" />
@@ -24,6 +25,11 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/LeastCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/LeastCommonAncestor_236.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/dynamic/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dynamic/LongestCommonSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/KRadiusSubarrayAverage_2090.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/KRadiusSubarrayAverage_2090.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/LruCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/LruCache.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,8 +133,13 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
     "vue.rearranger.settings.migration": "true"
   }
+<<<<<<< Updated upstream
 }]]></component>
   <component name="RunManager" selected="Application.MoveZeroesToEnd">
+=======
+}</component>
+  <component name="RunManager" selected="Application.com.leetcode.LRUCache">
+>>>>>>> Stashed changes
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -170,6 +181,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="BuySellStock_121_122" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.BuySellStock_121_122" />
       <module name="DataStructures" />
@@ -185,6 +197,10 @@
     </configuration>
     <configuration name="CustomSortHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Java_Experimentation.JavaEight.CustomSortHashMap" />
+=======
+    <configuration name="GoodNodesBinaryTree_1448" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.GoodNodesBinaryTree_1448" />
+>>>>>>> Stashed changes
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -209,8 +225,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.dynamic.LongestIncreasingSubsequence" />
+=======
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.HackerRank.LRUCache" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.HackerRank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxDepthBinaryTree (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.MaxDepthBinaryTree" />
+>>>>>>> Stashed changes
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -222,8 +256,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="MoveZeroesToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Java_Experimentation.MoveZeroesToEnd" />
+=======
+    <configuration name="com.leetcode.LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.LRUCache" />
+>>>>>>> Stashed changes
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -236,6 +275,7 @@
       </method>
     </configuration>
     <list>
+<<<<<<< Updated upstream
       <item itemvalue="Application.BuySellStock_121_122" />
       <item itemvalue="Application.CustomSortHashMap" />
       <item itemvalue="Application.KMostFrequentStrings" />
@@ -249,6 +289,21 @@
         <item itemvalue="Application.BuySellStock_121_122" />
         <item itemvalue="Application.CustomSortHashMap" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
+=======
+      <item itemvalue="Application.LRUCache" />
+      <item itemvalue="Application.com.leetcode.LRUCache" />
+      <item itemvalue="Application.IsSameBinaryTree" />
+      <item itemvalue="Application.GoodNodesBinaryTree_1448" />
+      <item itemvalue="Application.MaxDepthBinaryTree (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.leetcode.LRUCache" />
+        <item itemvalue="Application.LRUCache" />
+        <item itemvalue="Application.IsSameBinaryTree" />
+        <item itemvalue="Application.GoodNodesBinaryTree_1448" />
+        <item itemvalue="Application.MaxDepthBinaryTree (1)" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -298,6 +353,7 @@
       <workItem from="1727650603871" duration="11930000" />
       <workItem from="1728367178634" duration="6637000" />
       <workItem from="1728542110506" duration="20866000" />
+<<<<<<< Updated upstream
       <workItem from="1728842769064" duration="334000" />
       <workItem from="1728843281064" duration="1428000" />
       <workItem from="1729148534842" duration="11423000" />
@@ -306,6 +362,10 @@
       <workItem from="1729461353435" duration="21851000" />
       <workItem from="1729577085710" duration="2383000" />
       <workItem from="1729780253813" duration="405000" />
+=======
+      <workItem from="1728799196373" duration="3610000" />
+      <workItem from="1730093181179" duration="2360000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
