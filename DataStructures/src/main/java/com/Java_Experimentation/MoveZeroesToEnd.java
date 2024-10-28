@@ -58,6 +58,11 @@ public class MoveZeroesToEnd {
         map.put("date", 30);
         map.put("elderberry", 20);
 
+        System.out.println("NOT SORTED: ");
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " : " + entry.getValue());
+        }
+
         // Sorting the HashMap by values and then by keys if values are the same
         Map<String, Integer> sortedMap = map.entrySet()
                 .stream()
@@ -70,6 +75,7 @@ public class MoveZeroesToEnd {
                         LinkedHashMap::new));  // Collecting into a LinkedHashMap to maintain order
 
         // Printing the sorted map
+        System.out.println("SORTED USING STREAMS : ");
         sortedMap.forEach((key, value) -> System.out.println(key + " : " + value));
 
         /**
@@ -82,11 +88,12 @@ public class MoveZeroesToEnd {
         Collections.sort(entryList, new Comparator<Map.Entry<String, Integer>>() {
             @Override
             public int compare(Map.Entry<String, Integer> e1, Map.Entry<String, Integer> e2) {
-                // First compare by value
-                int valueComparison = e1.getValue().compareTo(e2.getValue());
+                // First compare by value. change e1.getValue() and e2.getValue() based on whethere you want ASC or DESC
+                int valueComparison = e2.getValue().compareTo(e1.getValue());
                 // If values are the same, compare by key
                 if (valueComparison == 0) {
-                    return e1.getKey().compareTo(e2.getKey());
+                    //same here you want to change the ASC and DESC
+                    return e2.getKey().compareTo(e1.getKey());
                 }
                 return valueComparison;
             }
@@ -99,6 +106,7 @@ public class MoveZeroesToEnd {
         }
 
         // Print the sorted map
+        System.out.println("SORTED: ");
         for (Map.Entry<String, Integer> entry : sortedMap_1.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
