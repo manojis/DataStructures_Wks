@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreeSumPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/MoveZeroesToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/MoveZeroesToEnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,56 +63,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BinaryTreeRightSideView_199.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuySellStock_121.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConnectedGroups.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomSortHashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GoodNodesBinaryTree_1448.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HotelReveiws.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.KMostFrequentStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KRadiusSubarrayAverage_2090.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestIncreasingSubsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestMountainArray_845.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxDepthBinaryTree (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxDepthBinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MiddleLinkedList_876.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinPartitions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveZeroesToEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MovingAverageDataStream_346.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberOfProvinces_547.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q1UniqueString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RemoveAdjacentDuplicates_1047.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RemoveNthNodeFromEnd_19.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReorderLinkedList_143.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReverseLinkedList_206.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleCipher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimplifyPath_71.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubarraySumEqualsK_560.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TopologicalSort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ValidAnagram.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ValidParanthesis.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Github_Manoj/DataStructures_Wks/DataStructures&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BinaryTreeRightSideView_199.executor": "Run",
+    "Application.BinaryTreeSumPaths.executor": "Run",
+    "Application.BuySellStock_121.executor": "Run",
+    "Application.ConnectedGroups.executor": "Run",
+    "Application.CustomSortHashMap.executor": "Run",
+    "Application.GoodNodesBinaryTree_1448.executor": "Run",
+    "Application.HotelReveiws.executor": "Debug",
+    "Application.KMostFrequentStrings.executor": "Run",
+    "Application.KRadiusSubarrayAverage_2090.executor": "Run",
+    "Application.LongestIncreasingSubsequence.executor": "Run",
+    "Application.LongestMountainArray_845.executor": "Run",
+    "Application.MaxDepthBinaryTree (1).executor": "Run",
+    "Application.MaxDepthBinaryTree.executor": "Run",
+    "Application.MiddleLinkedList_876.executor": "Debug",
+    "Application.MinPartitions.executor": "Run",
+    "Application.MoveZeroesToEnd.executor": "Run",
+    "Application.MovingAverageDataStream_346.executor": "Run",
+    "Application.MyClass.executor": "Run",
+    "Application.NumberOfProvinces_547.executor": "Run",
+    "Application.Q1UniqueString.executor": "Debug",
+    "Application.RemoveAdjacentDuplicates_1047.executor": "Debug",
+    "Application.RemoveNthNodeFromEnd_19.executor": "Debug",
+    "Application.ReorderLinkedList_143.executor": "Debug",
+    "Application.ReverseLinkedList_206.executor": "Run",
+    "Application.SimpleCipher.executor": "Run",
+    "Application.SimplifyPath_71.executor": "Run",
+    "Application.SubarraySumEqualsK_560.executor": "Debug",
+    "Application.TopologicalSort.executor": "Debug",
+    "Application.ValidAnagram.executor": "Debug",
+    "Application.ValidParanthesis.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Github_Manoj/DataStructures_Wks/DataStructures",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.MoveZeroesToEnd (1)">
+}]]></component>
+  <component name="RunManager" selected="Application.BinaryTreeSumPaths">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -153,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuySellStock_121_122" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.HackerRank.Algorithms.BuySellStock_121_122" />
+    <configuration name="BinaryTreeSumPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.BinaryTreeSumPaths" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.HackerRank.Algorithms.*" />
+          <option name="PATTERN" value="com.leetcode.leetcode75.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,27 +221,27 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BinaryTreeSumPaths" />
       <item itemvalue="Application.MoveZeroesToEnd (1)" />
       <item itemvalue="Application.MoveZeroesToEnd (2)" />
-      <item itemvalue="Application.BuySellStock_121_122" />
       <item itemvalue="Application.KMostFrequentStrings" />
       <item itemvalue="Application.MoveZeroesToEnd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeSumPaths" />
         <item itemvalue="Application.MoveZeroesToEnd (1)" />
         <item itemvalue="Application.MoveZeroesToEnd (2)" />
         <item itemvalue="Application.MoveZeroesToEnd" />
         <item itemvalue="Application.KMostFrequentStrings" />
-        <item itemvalue="Application.BuySellStock_121_122" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -289,6 +291,9 @@
       <workItem from="1729461353435" duration="21851000" />
       <workItem from="1729577085710" duration="2383000" />
       <workItem from="1729780253813" duration="405000" />
+      <workItem from="1730312211579" duration="2160000" />
+      <workItem from="1730577266355" duration="32000" />
+      <workItem from="1730579139151" duration="1048000" />
     </task>
     <servers />
   </component>
@@ -443,6 +448,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/Java_Experimentation/MoveZeroesToEnd.java</url>
           <line>93</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreeSumPaths.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
