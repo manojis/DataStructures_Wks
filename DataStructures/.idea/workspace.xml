@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreeSumPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +62,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BinaryTreeRightSideView_199.executor": "Run",
-    "Application.BinaryTreeSumPaths.executor": "Run",
+    "Application.BinaryTreeSumPaths.executor": "Debug",
     "Application.BuySellStock_121.executor": "Run",
     "Application.ConnectedGroups.executor": "Run",
     "Application.CustomSortHashMap.executor": "Run",
@@ -293,7 +289,7 @@
       <workItem from="1729780253813" duration="405000" />
       <workItem from="1730312211579" duration="2160000" />
       <workItem from="1730577266355" duration="32000" />
-      <workItem from="1730579139151" duration="1048000" />
+      <workItem from="1730579139151" duration="1531000" />
     </task>
     <servers />
   </component>
@@ -451,7 +447,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreeSumPaths.java</url>
-          <line>22</line>
+          <line>24</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
