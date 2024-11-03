@@ -29,7 +29,6 @@ public class BinaryTreeSumPaths {
             uniqueDecimals.add(currentValue);
             return;
         }
-
         // Recursively calculate the sum for both subtrees
         dfs(node.left, currentValue, uniqueDecimals);
         dfs(node.right, currentValue, uniqueDecimals);
