@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="" />
+    <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/customMapComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/LongestSubstringOptimized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/MaxRectangleAreaWithReduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/MaxRectangleAreaWithReductionArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HackerRank/KMostFrequentStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/KMostFrequentStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HackerRank/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/MoveZeroesToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/MoveZeroesToEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/LruCache_LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/LruCache_LeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreeSumPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreeSumPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SimpleCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SimpleCipher.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,18 +74,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BinaryTreeRightSideView_199.executor": "Run",
-    "Application.BinaryTreeSumPaths.executor": "Debug",
+    "Application.BinaryTreeSumPaths.executor": "Run",
     "Application.BuySellStock_121.executor": "Run",
     "Application.ConnectedGroups.executor": "Run",
     "Application.CustomSortHashMap.executor": "Run",
     "Application.GoodNodesBinaryTree_1448.executor": "Run",
     "Application.HotelReveiws.executor": "Debug",
-    "Application.KMostFrequentStrings.executor": "Run",
+    "Application.KMostFrequentStrings.executor": "Debug",
     "Application.KRadiusSubarrayAverage_2090.executor": "Run",
     "Application.LongestIncreasingSubsequence.executor": "Run",
     "Application.LongestMountainArray_845.executor": "Run",
+    "Application.LongestSubstringOptimized.executor": "Run",
     "Application.MaxDepthBinaryTree (1).executor": "Run",
     "Application.MaxDepthBinaryTree.executor": "Run",
+    "Application.MaxRectangleAreaWithReduction.executor": "Run",
+    "Application.MaxRectangleAreaWithReductionArr.executor": "Run",
     "Application.MiddleLinkedList_876.executor": "Debug",
     "Application.MinPartitions.executor": "Run",
     "Application.MoveZeroesToEnd.executor": "Run",
@@ -109,7 +124,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BinaryTreeSumPaths">
+  <component name="RunManager" selected="Application.KMostFrequentStrings">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -177,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroesToEnd (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Java_Experimentation.MoveZeroesToEnd" />
+    <configuration name="MaxRectangleAreaWithReduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.MaxRectangleAreaWithReduction" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Java_Experimentation.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroesToEnd (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Java_Experimentation.MoveZeroesToEnd" />
+    <configuration name="MaxRectangleAreaWithReductionArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.MaxRectangleAreaWithReductionArr" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Java_Experimentation.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroesToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Java_Experimentation.MoveZeroesToEnd" />
+    <configuration name="SimpleCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.SimpleCipher" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Java_Experimentation.*" />
+          <option name="PATTERN" value="com.leetcode.leetcode75.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,26 +233,26 @@
     </configuration>
     <list>
       <item itemvalue="Application.BinaryTreeSumPaths" />
-      <item itemvalue="Application.MoveZeroesToEnd (1)" />
-      <item itemvalue="Application.MoveZeroesToEnd (2)" />
       <item itemvalue="Application.KMostFrequentStrings" />
-      <item itemvalue="Application.MoveZeroesToEnd" />
+      <item itemvalue="Application.SimpleCipher" />
+      <item itemvalue="Application.MaxRectangleAreaWithReductionArr" />
+      <item itemvalue="Application.MaxRectangleAreaWithReduction" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryTreeSumPaths" />
-        <item itemvalue="Application.MoveZeroesToEnd (1)" />
-        <item itemvalue="Application.MoveZeroesToEnd (2)" />
-        <item itemvalue="Application.MoveZeroesToEnd" />
         <item itemvalue="Application.KMostFrequentStrings" />
+        <item itemvalue="Application.BinaryTreeSumPaths" />
+        <item itemvalue="Application.SimpleCipher" />
+        <item itemvalue="Application.MaxRectangleAreaWithReductionArr" />
+        <item itemvalue="Application.MaxRectangleAreaWithReduction" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -286,26 +301,17 @@
       <workItem from="1729399634620" duration="4592000" />
       <workItem from="1729461353435" duration="21851000" />
       <workItem from="1729577085710" duration="2383000" />
-      <workItem from="1729780253813" duration="405000" />
-      <workItem from="1730312211579" duration="2160000" />
-      <workItem from="1730577266355" duration="32000" />
-      <workItem from="1730579139151" duration="1531000" />
+      <workItem from="1729780253813" duration="807000" />
+      <workItem from="1729972890279" duration="4948000" />
+      <workItem from="1730068955497" duration="2000" />
+      <workItem from="1730156138954" duration="45000" />
+      <workItem from="1730508091413" duration="9000" />
+      <workItem from="1730527959987" duration="1767000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ID_ORDER">
-      <list>
-        <option value="Default.Root" />
-        <option value="Default.Author" />
-        <option value="Default.Date" />
-        <option value="Default.Subject" />
-        <option value="Space.CommitStatus" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -441,13 +447,8 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/Java_Experimentation/MoveZeroesToEnd.java</url>
-          <line>93</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreeSumPaths.java</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/HackerRank/KMostFrequentStrings.java</url>
+          <line>52</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>

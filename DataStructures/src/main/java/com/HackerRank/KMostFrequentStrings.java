@@ -3,6 +3,33 @@ package com.HackerRank;
 import java.util.*;
 
 public class KMostFrequentStrings {
+    public static List<String> topKFrequent(String[] words, int k) {
+        Map<String, Integer> frequency = new HashMap<>();
+
+        for (String st : words) {
+            frequency.put(st, frequency.getOrDefault(st, 0) + 1);
+        }
+
+        List<Map.Entry<String, Integer>> sortList = new ArrayList<>(frequency.entrySet());
+
+        sortList.sort(
+                Comparator.comparing(Map.Entry<String, Integer>::getValue).reversed()
+                        .thenComparing(Map.Entry<String, Integer>::getKey));
+
+        List<String> output = new ArrayList<String>();
+        //Map<String, Integer> lHashMap = new LinkedHashMap<>();
+        int i = 0;
+        for (Map.Entry<String, Integer> entry : sortList) {
+            if (i < k) {
+                output.add(entry.getKey());
+                i++;
+            } else {
+                break;
+            }
+        }
+        return output;
+    }
+
     public static List<String> findKMostFrequent(String[] strings, int k) {
         // Step 1: Count the frequency of each string
         Map<String, Integer> frequencyMap = new HashMap<>();
@@ -12,8 +39,8 @@ public class KMostFrequentStrings {
 
         // Step 2: Use a PriorityQueue to keep track of top k elements
         PriorityQueue<Map.Entry<String, Integer>> minHeap = new PriorityQueue<>(
-                Comparator.comparingInt(Map.Entry::getValue)
-        );
+                Comparator.comparing(Map.Entry<String, Integer>::getValue)
+                        .thenComparing(Comparator.comparing(Map.Entry<String, Integer>::getKey).reversed()));
 
         // Step 3: Maintain the heap size to k
         for (Map.Entry<String, Integer> entry : frequencyMap.entrySet()) {
@@ -26,7 +53,6 @@ public class KMostFrequentStrings {
         List<String> result = new ArrayList<>();
         while (!minHeap.isEmpty()) {
             Map.Entry<String, Integer> entry = minHeap.poll();
-            System.out.println(entry.getKey() +" " + entry.getValue());
             result.add(entry.getKey());
         }
 
@@ -36,10 +62,16 @@ public class KMostFrequentStrings {
     }
 
     public static void main(String[] args) {
-        String[] strings = {"apple", "banana", "apple", "orange", "banana", "apple", "kiwi", "banana", "orange"};
+        String[] strings = {"i","love","leetcode","i","love","coding"};
         int k = 2;
 
-        List<String> mostFrequentStrings = findKMostFrequent(strings, 3);
+        List<String> mostFrequentStrings = findKMostFrequent(strings, 2);
+        List<String> mostFrequentStrs = topKFrequent(strings, 2);
+
         System.out.println(mostFrequentStrings);  // Output: [banana, apple]
+
+        System.out.println("==============================");
+
+        System.out.println(mostFrequentStrs);
     }
 }

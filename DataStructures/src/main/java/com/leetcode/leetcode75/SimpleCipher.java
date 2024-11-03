@@ -1,6 +1,32 @@
 package com.leetcode.leetcode75;
 
 public class SimpleCipher {
+    public static String caesarCipher(String s, int k) {
+        char[] input = s.toCharArray();
+        k = k% 26;
+        for (int i =0; i < input.length; i++ ) {
+            int temp = input[i] + k;
+            if ((input[i] >= 65 && input[i] <=90)) {
+                if (temp > 90) {
+                    int val= (((temp) - 90)% 26) + 64;
+                    input[i] = (char) val;
+                } else {
+                    input[i] = (char) temp;
+                }
+            }
+
+            if ((input[i] >= 97 && input[i] <= 122)) {
+                if (temp > 122) {
+                    int val= (((temp) - 122) % 26) + 96;
+                    input[i] = (char) val;
+                } else {
+                    input[i] = (char) temp;
+                }
+            }
+        }
+        return String.copyValueOf(input);
+    }
+
     public static String decrypt(String encryptedText, int k) {
 
         int ordA = 'A';
@@ -45,10 +71,10 @@ public class SimpleCipher {
 
     public static void main(String[] args) {
         // Example usage
-        String encryptedText = "VGXGPU"; // Encrypted string
-        int k = 12; // Counterclockwise shift value
+        String encryptedText = "Hello_World!"; // Encrypted string
+        int k = 4; // Counterclockwise shift value
 
-        String decrypted = decrypt(encryptedText, k);
+        String decrypted = caesarCipher(encryptedText, k);
         System.out.println("Decrypted string: " + decrypted);
     }
 }
