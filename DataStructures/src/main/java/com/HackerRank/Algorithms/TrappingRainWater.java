@@ -10,7 +10,6 @@ public class TrappingRainWater {
         int[] input = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
         int result = totalVolumeTrapped(input);
         System.out.println("Total volume of rainwater that can be trapped:" + result);
-
     }
 
     public static int totalVolumeTrapped(int[] input) {

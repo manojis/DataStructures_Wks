@@ -17,7 +17,7 @@ public class KMostFrequentStrings {
                         .thenComparing(Map.Entry<String, Integer>::getKey));
 
         List<String> output = new ArrayList<String>();
-        //Map<String, Integer> lHashMap = new LinkedHashMap<>();
+
         int i = 0;
         for (Map.Entry<String, Integer> entry : sortList) {
             if (i < k) {

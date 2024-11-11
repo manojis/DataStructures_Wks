@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/customMapComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/LongestSubstringOptimized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/MaxRectangleAreaWithReduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/MaxRectangleAreaWithReductionArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/design/SeatManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/Algorithms/TrappingRainWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/HackerRank/KMostFrequentStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/KMostFrequentStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/HackerRank/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HackerRank/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/MoveZeroesToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_Experimentation/MoveZeroesToEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/LruCache_LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/LruCache_LeetCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreeSumPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreeSumPaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SimpleCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/SimpleCipher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +93,7 @@
     "Application.RemoveNthNodeFromEnd_19.executor": "Debug",
     "Application.ReorderLinkedList_143.executor": "Debug",
     "Application.ReverseLinkedList_206.executor": "Run",
+    "Application.SeatManager.executor": "Debug",
     "Application.SimpleCipher.executor": "Run",
     "Application.SimplifyPath_71.executor": "Run",
     "Application.SubarraySumEqualsK_560.executor": "Debug",
@@ -124,7 +118,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.KMostFrequentStrings">
+  <component name="RunManager" selected="Application.SeatManager">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -192,8 +186,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxRectangleAreaWithReduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.MaxRectangleAreaWithReduction" />
+    <configuration name="MaxRectangleAreaWithReductionArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.MaxRectangleAreaWithReductionArr" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -205,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxRectangleAreaWithReductionArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.MaxRectangleAreaWithReductionArr" />
+    <configuration name="SeatManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.design.SeatManager" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.leetcode.design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,19 +226,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SeatManager" />
       <item itemvalue="Application.BinaryTreeSumPaths" />
       <item itemvalue="Application.KMostFrequentStrings" />
       <item itemvalue="Application.SimpleCipher" />
       <item itemvalue="Application.MaxRectangleAreaWithReductionArr" />
-      <item itemvalue="Application.MaxRectangleAreaWithReduction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SeatManager" />
         <item itemvalue="Application.KMostFrequentStrings" />
         <item itemvalue="Application.BinaryTreeSumPaths" />
         <item itemvalue="Application.SimpleCipher" />
         <item itemvalue="Application.MaxRectangleAreaWithReductionArr" />
-        <item itemvalue="Application.MaxRectangleAreaWithReduction" />
       </list>
     </recent_temporary>
   </component>
@@ -307,6 +301,10 @@
       <workItem from="1730156138954" duration="45000" />
       <workItem from="1730508091413" duration="9000" />
       <workItem from="1730527959987" duration="1767000" />
+      <workItem from="1730683392760" duration="4129000" />
+      <workItem from="1730703019610" duration="726000" />
+      <workItem from="1731002473598" duration="1359000" />
+      <workItem from="1731301997014" duration="1315000" />
     </task>
     <servers />
   </component>
@@ -450,6 +448,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/HackerRank/KMostFrequentStrings.java</url>
           <line>52</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/design/SeatManager.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/design/SeatManager.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/design/SeatManager.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
