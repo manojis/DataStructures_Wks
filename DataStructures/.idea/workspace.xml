@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/PathSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/TaskScheduler_621.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/graphs/GraphInputTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/graphs/UniquePaths_62.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreePaths_257.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreeSumPaths2_113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/PathSum2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,61 +67,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BinaryTreeRightSideView_199.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryTreeSumPaths.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuySellStock_121.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConnectedGroups.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomSortHashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GoodNodesBinaryTree_1448.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HotelReveiws.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.KMostFrequentStrings.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.KRadiusSubarrayAverage_2090.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestIncreasingSubsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestMountainArray_845.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubstringOptimized.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxDepthBinaryTree (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxDepthBinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxRectangleAreaWithReduction.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxRectangleAreaWithReductionArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MiddleLinkedList_876.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinPartitions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveZeroesToEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MovingAverageDataStream_346.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberOfProvinces_547.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q1UniqueString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RemoveAdjacentDuplicates_1047.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RemoveNthNodeFromEnd_19.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReorderLinkedList_143.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReverseLinkedList_206.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeatManager.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SimpleCipher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimplifyPath_71.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubarraySumEqualsK_560.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TopologicalSort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ValidAnagram.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ValidParanthesis.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Github_Manoj/DataStructures_Wks/DataStructures&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BinaryTreePaths_257.executor": "Debug",
+    "Application.BinaryTreeRightSideView_199.executor": "Run",
+    "Application.BinaryTreeSumPaths.executor": "Run",
+    "Application.BuySellStock_121.executor": "Run",
+    "Application.ConnectedGroups.executor": "Run",
+    "Application.CustomSortHashMap.executor": "Run",
+    "Application.GoodNodesBinaryTree_1448.executor": "Run",
+    "Application.HotelReveiws.executor": "Debug",
+    "Application.KMostFrequentStrings.executor": "Debug",
+    "Application.KRadiusSubarrayAverage_2090.executor": "Run",
+    "Application.LongestIncreasingSubsequence.executor": "Run",
+    "Application.LongestMountainArray_845.executor": "Run",
+    "Application.LongestSubstringOptimized.executor": "Run",
+    "Application.MaxDepthBinaryTree (1).executor": "Run",
+    "Application.MaxDepthBinaryTree.executor": "Run",
+    "Application.MaxRectangleAreaWithReduction.executor": "Run",
+    "Application.MaxRectangleAreaWithReductionArr.executor": "Run",
+    "Application.MiddleLinkedList_876.executor": "Debug",
+    "Application.MinPartitions.executor": "Run",
+    "Application.MoveZeroesToEnd.executor": "Run",
+    "Application.MovingAverageDataStream_346.executor": "Run",
+    "Application.MyClass.executor": "Run",
+    "Application.NumberOfProvinces_547.executor": "Run",
+    "Application.Q1UniqueString.executor": "Debug",
+    "Application.RemoveAdjacentDuplicates_1047.executor": "Debug",
+    "Application.RemoveNthNodeFromEnd_19.executor": "Debug",
+    "Application.ReorderLinkedList_143.executor": "Debug",
+    "Application.ReverseLinkedList_206.executor": "Run",
+    "Application.SeatManager.executor": "Debug",
+    "Application.SimpleCipher.executor": "Run",
+    "Application.SimplifyPath_71.executor": "Run",
+    "Application.SubarraySumEqualsK_560.executor": "Debug",
+    "Application.TaskScheduler_621.executor": "Debug",
+    "Application.TopologicalSort.executor": "Debug",
+    "Application.ValidAnagram.executor": "Debug",
+    "Application.ValidParanthesis.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/media/mohitha/Extension/Github_Manoj/DataStructures_Wks/DataStructures",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.SeatManager">
+}]]></component>
+  <component name="RunManager" selected="Application.BinaryTreePaths_257">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -157,6 +166,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BinaryTreePaths_257" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.BinaryTreePaths_257" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.leetcode75.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinaryTreeSumPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.BinaryTreeSumPaths" />
       <module name="DataStructures" />
@@ -183,19 +205,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxRectangleAreaWithReductionArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.MaxRectangleAreaWithReductionArr" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SeatManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.design.SeatManager" />
       <module name="DataStructures" />
@@ -209,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.SimpleCipher" />
+    <configuration name="TaskScheduler_621" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.TaskScheduler_621" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.leetcode75.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,27 +232,27 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BinaryTreePaths_257" />
+      <item itemvalue="Application.TaskScheduler_621" />
       <item itemvalue="Application.SeatManager" />
       <item itemvalue="Application.BinaryTreeSumPaths" />
       <item itemvalue="Application.KMostFrequentStrings" />
-      <item itemvalue="Application.SimpleCipher" />
-      <item itemvalue="Application.MaxRectangleAreaWithReductionArr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreePaths_257" />
+        <item itemvalue="Application.TaskScheduler_621" />
         <item itemvalue="Application.SeatManager" />
         <item itemvalue="Application.KMostFrequentStrings" />
         <item itemvalue="Application.BinaryTreeSumPaths" />
-        <item itemvalue="Application.SimpleCipher" />
-        <item itemvalue="Application.MaxRectangleAreaWithReductionArr" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -301,7 +310,22 @@
       <workItem from="1730683392760" duration="4129000" />
       <workItem from="1730703019610" duration="726000" />
       <workItem from="1731002473598" duration="1359000" />
-      <workItem from="1731301997014" duration="1315000" />
+      <workItem from="1731301997014" duration="2190000" />
+      <workItem from="1731381993475" duration="3922000" />
+      <workItem from="1731561281178" duration="62000" />
+      <workItem from="1731561466007" duration="14000" />
+      <workItem from="1731596883405" duration="66000" />
+      <workItem from="1731617530544" duration="1442000" />
+      <workItem from="1732040124942" duration="2321000" />
+      <workItem from="1732300967626" duration="7000" />
+      <workItem from="1732594718285" duration="6569000" />
+      <workItem from="1732824938630" duration="1421000" />
+      <workItem from="1733020233575" duration="83000" />
+      <workItem from="1733020421453" duration="467000" />
+      <workItem from="1733020920223" duration="709000" />
+      <workItem from="1733022005167" duration="11000" />
+      <workItem from="1733034516354" duration="316000" />
+      <workItem from="1733034840034" duration="13829000" />
     </task>
     <servers />
   </component>
@@ -442,24 +466,19 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/HackerRank/KMostFrequentStrings.java</url>
-          <line>52</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/TaskScheduler_621.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/TaskScheduler_621.java</url>
+          <line>38</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/design/SeatManager.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/design/SeatManager.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/design/SeatManager.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="44" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreePaths_257.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

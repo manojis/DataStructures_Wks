@@ -3,11 +3,7 @@ package com.leetcode.leetcode75;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Manoj.Mohanan Nair
- * @Date 12/3/24
- */
-public class PathSum2 {
+public class BinaryTreeSumPaths2_113 {
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
         // start from the root node. make a call to dfs using both left and right node one by one
         // keep a track of the remaining sum.
@@ -40,7 +36,7 @@ public class PathSum2 {
     }
 
     public static void main(String[] args) {
-        PathSum2 solution = new PathSum2();
+        BinaryTreeSumPaths2_113 solution = new BinaryTreeSumPaths2_113();
         TreeNode root = new TreeNode(5);
         root.left = new TreeNode(4);
         root.right = new TreeNode(8);
