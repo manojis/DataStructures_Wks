@@ -1,4 +1,4 @@
-package com.design.lld;
+package com.design.lowleveldesign;
 
 import java.util.HashMap;
 import java.util.Scanner;
