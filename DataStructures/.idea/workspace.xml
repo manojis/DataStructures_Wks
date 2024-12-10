@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af8def-a93e-46ee-b5e8-5b6d1b8fbdd7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/TaskScheduler_621.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/graphs/GraphInputTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/graphs/UniquePaths_62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreePaths_257.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreeSumPaths2_113.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/design/lld/ConcertBookingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/design/lld/ConcertBookingSystem_ServiceNow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/LongestSubstringWithoutRepeating_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/PathSum2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/BankingSystemImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/lld/BankingSystemImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/design/SeatManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/lld/SeatManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lowleveldesign/TrafficLight/PedestrianCrossController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/lld/TrafficLight/PedestrianCrossController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lowleveldesign/TrafficLight/TrafficLightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/lld/TrafficLight/TrafficLightController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lowleveldesign/TrafficLight/TrafficLightState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/lld/TrafficLight/TrafficLightState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lowleveldesign/TrafficLight/WalkState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/lld/TrafficLight/WalkState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BinaryTreePaths_257.executor": "Debug",
+    "Application.BinaryTreePaths_257.executor": "Run",
     "Application.BinaryTreeRightSideView_199.executor": "Run",
     "Application.BinaryTreeSumPaths.executor": "Run",
     "Application.BuySellStock_121.executor": "Run",
@@ -82,6 +85,7 @@
     "Application.LongestIncreasingSubsequence.executor": "Run",
     "Application.LongestMountainArray_845.executor": "Run",
     "Application.LongestSubstringOptimized.executor": "Run",
+    "Application.LongestSubstringWithoutRepeating_3.executor": "Run",
     "Application.MaxDepthBinaryTree (1).executor": "Run",
     "Application.MaxDepthBinaryTree.executor": "Run",
     "Application.MaxRectangleAreaWithReduction.executor": "Run",
@@ -114,7 +118,7 @@
     "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/media/mohitha/Extension/Github_Manoj/DataStructures_Wks/DataStructures",
+    "last_opened_file_path": "/media/mohitha/Extension/Github_Manoj/DataStructures_Wks/DataStructures/src/main/java/com/design/lld",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -124,7 +128,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BinaryTreePaths_257">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/design/lld" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeating_3">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -179,19 +188,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeSumPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcode75.BinaryTreeSumPaths" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.leetcode75.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KMostFrequentStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.HackerRank.KMostFrequentStrings" />
       <module name="DataStructures" />
@@ -205,12 +201,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeatManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.design.SeatManager" />
+    <configuration name="LongestSubstringWithoutRepeating_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.LongestSubstringWithoutRepeating_3" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.design.*" />
+          <option name="PATTERN" value="com.design.lld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeatManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.design.lld.SeatManager" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.design.lld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,7 +232,7 @@
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.design.lld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,19 +241,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LongestSubstringWithoutRepeating_3" />
       <item itemvalue="Application.BinaryTreePaths_257" />
       <item itemvalue="Application.TaskScheduler_621" />
       <item itemvalue="Application.SeatManager" />
-      <item itemvalue="Application.BinaryTreeSumPaths" />
       <item itemvalue="Application.KMostFrequentStrings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringWithoutRepeating_3" />
         <item itemvalue="Application.BinaryTreePaths_257" />
         <item itemvalue="Application.TaskScheduler_621" />
         <item itemvalue="Application.SeatManager" />
         <item itemvalue="Application.KMostFrequentStrings" />
-        <item itemvalue="Application.BinaryTreeSumPaths" />
       </list>
     </recent_temporary>
   </component>
@@ -326,6 +335,8 @@
       <workItem from="1733022005167" duration="11000" />
       <workItem from="1733034516354" duration="316000" />
       <workItem from="1733034840034" duration="13829000" />
+      <workItem from="1733695197772" duration="3827000" />
+      <workItem from="1733800582175" duration="3453000" />
     </task>
     <servers />
   </component>
@@ -479,6 +490,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcode75/BinaryTreePaths_257.java</url>
           <line>24</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/LongestSubstringWithoutRepeating_3.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

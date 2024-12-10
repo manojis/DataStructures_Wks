@@ -1,6 +1,5 @@
-package com.leetcode.design;
+package com.design.lld;
 
-import java.util.HashMap;
 import java.util.PriorityQueue;
 
 public class SeatManager {

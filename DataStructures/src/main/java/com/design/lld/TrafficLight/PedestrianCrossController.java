@@ -1,4 +1,4 @@
-package com.lowleveldesign.TrafficLight;
+package com.design.lld.TrafficLight;
 
 public class PedestrianCrossController {
 

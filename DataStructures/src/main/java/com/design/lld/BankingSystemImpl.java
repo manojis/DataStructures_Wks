@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.design.lld;
 
 import java.util.HashMap;
 import java.util.Scanner;
