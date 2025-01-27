@@ -23,8 +23,12 @@ public class KeyBoard_Row {
         }
         List<String> res = new LinkedList<>();
         for(String w: words){
-            if(w.equals("")) continue;
+            if(w.equals("")) {
+                continue;
+            }
+
             int index = map.get(w.toUpperCase().charAt(0));
+
             for(char c: w.toUpperCase().toCharArray()){
                 if(map.get(c)!=index){
                     index = -1; //don't need a boolean flag.

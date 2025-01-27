@@ -32,15 +32,26 @@ public class ConcertBookingSystem {
     public boolean reserveSeats(String userId, String seatType, List<Integer> seatNumbers) {
         lock.lock();
         try {
-            Set<Integer> reservedSet = getSeatSet(seatType);
-            int availableSeats = getAvailableSeats(seatType);
-            if (seatNumbers.size() > availableSeats) return false;
-
-            for (int seat : seatNumbers) {
-                if (reservedSet.contains(seat)) return false; // Already reserved
+            int currentCount = userBookingCounts.getOrDefault(userId, 0);
+            if (currentCount + seatNumbers.size() > 6) {
+                return false;
             }
 
-            reservedSet.addAll(seatNumbers);
+            Set<Integer> reservedSeats = getSeatSet(seatType);
+            int availableSeats = getAvailableSeats(seatType);
+            if (seatNumbers.size() > availableSeats) {
+                return false;
+            }
+
+            for (int seat : seatNumbers) {
+                if (reservedSeats.contains(seat)) {
+                    return false; // Already reserved
+                }
+            }
+
+            reservedSeats.addAll(seatNumbers);
+            // takes care of the additional logic of not allowing more than 6 seats per user.
+            userBookingCounts.put(userId, currentCount + seatNumbers.size());
             return true;
         } finally {
             lock.unlock();
